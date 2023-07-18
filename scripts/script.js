@@ -7,15 +7,15 @@ const data = {
   'What are the best online gambling sites?':
     'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   'Is online gambling legal in USA?':
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    'Online gambling regulations in the United States vary by state. While some states have legalized and regulated online gambling, others have strict laws prohibiting it. It is important to research and understand the specific laws and regulations of your state to determine the legality of online gambling in your jurisdiction.',
   'Can I play online casino games for free?':
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    'Yes, many online gambling websites offer the option to play casino games for free. These free games often come in the form of “demo” or “play for fun” versions, allowing you to experience the gameplay and features without wagering real money. It’s a great way to familiarize yourself with different games, practice strategies, or simply enjoy the entertainment value without any financial risk.',
   'Can I gamble for real money online?':
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    'Yes, you can gamble for real money online. Online gambling sites provide opportunities to wager real money on various casino games, sports betting, poker, and other forms of gambling. However, it’s important to ensure that you are of legal age and comply with the laws and regulations of your jurisdiction regarding online gambling for real money. Additionally, it is crucial to gamble responsibly and set limits on your spending.',
   'How popular is online gambling?':
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    'Online gambling has experienced significant popularity and growth in recent years. It has become a widespread form of entertainment and has attracted a large number of players worldwide. The convenience of accessing gambling platforms from anywhere with an internet connection, the wide range of games available, and the advancements in technology have contributed to the increasing popularity of online gambling. However, specific popularity figures and trends can vary depending on regions and individual preferences.',
   'Can I gamble on my mobile device?':
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    'Yes, you can gamble on your mobile device. Many online gambling sites offer mobile-friendly platforms or dedicated mobile apps that allow you to access a wide range of casino games, sports betting, and other gambling activities directly from your smartphone or tablet. Mobile gambling provides convenience and flexibility, allowing you to enjoy your favorite games on the go. Just ensure that you have a stable internet connection to have a seamless mobile gambling experience.',
 }
 
 /* DOM Elements */
