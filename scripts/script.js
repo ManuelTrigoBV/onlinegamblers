@@ -24,12 +24,12 @@ const faqsContainer = document.getElementById('faq-section-container')
 /* Window event listener - when loading the page to append the faq */
 window.addEventListener('load', () => {
   //appendFaq("What is online gaming?", "Lorem ipsum dolor sit amet consectetur adipisicing elit.");
-  let keys = Object.keys(data);
+  let keys = Object.keys(data)
   console.log(keys)
   for (let i = 0; i < keys.length; i++) {
-    let question = keys[i];
+    let question = keys[i]
     if (i === 0) {
-      console.log("hyes")
+      console.log('hyes')
       appendFaq(question, data[question], true)
     } else {
       appendFaq(question, data[question], false)
@@ -39,8 +39,8 @@ window.addEventListener('load', () => {
 
 function appendFaq(question, answer, special) {
   /* Boolean logic */
-  let isOpened = false;
-  
+  let isOpened = false
+
   /* Creating the FAQ container */
   const faqContainer = document.createElement('div')
   faqContainer.className = 'faq-container w-100'
@@ -57,7 +57,7 @@ function appendFaq(question, answer, special) {
     'col-9 d-flex h-100 align-items-center justify-content-start'
 
   /* Creating the question text element */
-  const questionTextElement = document.createElement('h1')
+  const questionTextElement = document.createElement('h3')
   questionTextElement.className = 'my-auto'
   questionTextElement.textContent = question
 
@@ -76,7 +76,6 @@ function appendFaq(question, answer, special) {
   const image = document.createElement('img')
   image.src = './assets/next.png'
 
-  
   /* Creating the function for clicking the "image button" and opening the answer */
   image.onclick = () => {
     if (isOpened) {
@@ -91,7 +90,6 @@ function appendFaq(question, answer, special) {
       isOpened = true
     }
   }
-
 
   /* Appending the image to the "div" containing it */
   imageContainer.appendChild(image)
@@ -115,10 +113,10 @@ function appendFaq(question, answer, special) {
 
   if (special === true) {
     faqContainer.classList.add('active-faq')
-      answerContainer.className = 'answer-content d-block w-100'
-      image.classList.add('active-faq-image')
-      isOpened = true
-  } 
+    answerContainer.className = 'answer-content d-block w-100'
+    image.classList.add('active-faq-image')
+    isOpened = true
+  }
 
   /* Appending the answer container to the main FAQ container */
   faqContainer.appendChild(answerContainer)

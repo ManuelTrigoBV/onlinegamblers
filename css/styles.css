@@ -445,7 +445,7 @@ body
   padding-right: 40px;
 }
 
-.method-card .text-container h1 {
+.method-card .text-container h6 {
   color: var(--just-white);
   font-size: 25px;
   margin-top: 40px;
@@ -462,7 +462,7 @@ body
   padding-left: 5rem;
 }
 
-.rate-section .text-section h1 {
+.rate-section .text-section h3 {
   max-width: 50%;
   font-size: 60px;
   font-weight: bold;
@@ -487,6 +487,10 @@ body
   height: 200px;
 }
 
+.ninth-section h5.text-center {
+  font-size: 2.5rem;
+}
+
 .mode-content {
   width: 150px;
   height: 60px;
@@ -495,7 +499,7 @@ body
   margin: 0 100px;
 }
 
-.mode-content h1 {
+.mode-content h6 {
   color: var(--just-white);
 }
 
@@ -503,6 +507,10 @@ body
   min-height: 150px;
   max-height: max-content;
   margin-bottom: 40px;
+}
+
+.online-vs-offline {
+  font-size: 2.6rem;
 }
 
 /* .compare-container .online-text {
@@ -710,6 +718,9 @@ footer .copyright-container .information-rights-container p {
   margin: auto 50px;
 }
 
+footer .footer-title {
+  font-size: 2.6rem;
+}
 
 /* AVOIDING CARDS RESPONSIVE HELPER */
 
@@ -758,7 +769,6 @@ footer .copyright-container .information-rights-container p {
   .fourth-section .strategies-container .strategy-card p {
     font-size: 13px;
   }
-
 
   .fifth-section img {
     width: 1000px;
@@ -840,11 +850,9 @@ footer .copyright-container .information-rights-container p {
   }
 }
 
-
 /* DESKTOP - VERY SMALL RESOLUTIONS */
 
 @media screen and (max-width: 1199px) and (min-width: 900px) {
-
   .logo-container span {
     font-size: 25px !important;
   }
@@ -924,7 +932,6 @@ footer .copyright-container .information-rights-container p {
     font-size: 11px;
   }
 
-
   .fifth-section img {
     width: 700px;
     height: 450px;
@@ -974,8 +981,6 @@ footer .copyright-container .information-rights-container p {
     position: absolute;
     bottom: 0;
   }
-
-
 
   .rate-section .text-section h1 {
     font-size: 50px;
@@ -1035,7 +1040,6 @@ footer .copyright-container .information-rights-container p {
 /* DESKTOP - 4K */
 
 @media screen and (min-width: 2800px) {
-
   .title-section {
     font-size: 100px;
     margin: 250px 0;
@@ -1070,8 +1074,6 @@ footer .copyright-container .information-rights-container p {
   .hook-section .text-section div p {
     font-size: 40px;
   }
-
-  
 
   .third-section {
     height: 1200px;
@@ -1218,7 +1220,7 @@ footer .copyright-container .information-rights-container p {
     height: 80px;
   }
 
-  .rate-section  {
+  .rate-section {
     background-size: cover;
     height: 1400px;
   }
@@ -1248,7 +1250,6 @@ footer .copyright-container .information-rights-container p {
   .rate-section .text-section h1 {
     font-size: 100px;
   }
-
 
   .mode-content {
     width: 300px;
@@ -1285,7 +1286,6 @@ footer .copyright-container .information-rights-container p {
   .compare-container .image-container h1 {
     font-size: 40px;
   }
-
 
   .tenth-section {
     margin-top: 200px;
@@ -1372,10 +1372,8 @@ footer .copyright-container .information-rights-container p {
   }
 }
 
-
 /* MOBILE DEVICES COMPLETE RESPONSIVNESS */
 @media screen and (max-width: 450px) {
-
   .title-section {
     font-size: 20px;
     text-align: center !important;
@@ -1470,7 +1468,6 @@ footer .copyright-container .information-rights-container p {
     margin-left: 45px;
   }
 
-
   /*THIRD SECTION*/
   .third-section {
     height: 1700px;
@@ -1483,14 +1480,13 @@ footer .copyright-container .information-rights-container p {
   .third-section .content .text-container {
     height: 200px !important;
     width: 100% !important;
-    
+
     justify-content: center !important;
   }
 
   .third-section .content .text-container div {
     /* padding: 20px; */
     max-width: 80%;
-    
   }
 
   .third-section .content .text-container h2 {
@@ -1604,13 +1600,11 @@ footer .copyright-container .information-rights-container p {
 
   /* SIXTH SECTION */
   .sixth-section {
-    
     height: 1200px;
   }
 
   .sixth-section .title-section {
     /* width: 50% !important; */
-    
   }
 
   .sixth-section .bonuses-container {
@@ -1777,7 +1771,6 @@ footer .copyright-container .information-rights-container p {
     margin-top: 20px;
   }
 
-
   /* NINTH SECTION */
   .ninth-section {
     max-width: max-content;
@@ -1857,7 +1850,6 @@ footer .copyright-container .information-rights-container p {
 
   /* TENTH SECTION */
   .tenth-section {
-    
     max-width: max-content;
     height: 1100px;
   }
@@ -1875,7 +1867,6 @@ footer .copyright-container .information-rights-container p {
   .tenth-section .content h1 {
     font-size: 30px;
     margin-top: 50px;
-
   }
 
   .tenth-section .content .desc {
@@ -1938,7 +1929,6 @@ footer .copyright-container .information-rights-container p {
   footer .buttons-container {
     display: none !important;
     height: 70%;
-    
   }
 
   footer .buttons-section {
@@ -1963,7 +1953,6 @@ footer .copyright-container .information-rights-container p {
 
 /* MOBILE DEVICES TO SMALL TABLETS */
 @media screen and (min-width: 451px) and (max-width: 620px) {
-
   .title-section {
     font-size: 26px;
     text-align: center !important;
@@ -2057,7 +2046,6 @@ footer .copyright-container .information-rights-container p {
     height: 350px;
   }
 
-
   /*THIRD SECTION*/
   .third-section {
     height: 1700px;
@@ -2070,14 +2058,13 @@ footer .copyright-container .information-rights-container p {
   .third-section .content .text-container {
     height: 200px !important;
     width: 100% !important;
-    
+
     justify-content: center !important;
   }
 
   .third-section .content .text-container div {
     /* padding: 20px; */
     max-width: 80%;
-    
   }
 
   .third-section .content .text-container h2 {
@@ -2192,13 +2179,11 @@ footer .copyright-container .information-rights-container p {
 
   /* SIXTH SECTION */
   .sixth-section {
-    
     height: 1200px;
   }
 
   .sixth-section .title-section {
     /* width: 50% !important; */
-    
   }
 
   .sixth-section .bonuses-container {
@@ -2365,7 +2350,6 @@ footer .copyright-container .information-rights-container p {
     margin-top: 20px;
   }
 
-
   /* NINTH SECTION */
   .ninth-section {
     max-width: max-content;
@@ -2445,7 +2429,6 @@ footer .copyright-container .information-rights-container p {
 
   /* TENTH SECTION */
   .tenth-section {
-    
     max-width: max-content;
     height: 1100px;
   }
@@ -2463,7 +2446,6 @@ footer .copyright-container .information-rights-container p {
   .tenth-section .content h1 {
     font-size: 35px;
     margin-top: 50px;
-
   }
 
   .tenth-section .content .desc {
@@ -2526,7 +2508,6 @@ footer .copyright-container .information-rights-container p {
   footer .buttons-container {
     display: none !important;
     height: 70%;
-    
   }
 
   footer .buttons-section {
@@ -2549,10 +2530,8 @@ footer .copyright-container .information-rights-container p {
   }
 }
 
-
 /* NORMAL TO BIG TABLETS */
 @media screen and (min-width: 621px) and (max-width: 899px) {
-
   .title-section {
     font-size: 26px;
     text-align: center !important;
@@ -2646,7 +2625,6 @@ footer .copyright-container .information-rights-container p {
     height: 350px;
   }
 
-
   /*THIRD SECTION*/
   .third-section {
     height: 1700px;
@@ -2659,14 +2637,13 @@ footer .copyright-container .information-rights-container p {
   .third-section .content .text-container {
     height: 200px !important;
     width: 100% !important;
-    
+
     justify-content: center !important;
   }
 
   .third-section .content .text-container div {
     /* padding: 20px; */
     max-width: 80%;
-    
   }
 
   .third-section .content .text-container h2 {
@@ -2781,13 +2758,11 @@ footer .copyright-container .information-rights-container p {
 
   /* SIXTH SECTION */
   .sixth-section {
-    
     height: 1200px;
   }
 
   .sixth-section .title-section {
     /* width: 50% !important; */
-    
   }
 
   .sixth-section .bonuses-container {
@@ -2955,7 +2930,6 @@ footer .copyright-container .information-rights-container p {
     margin-top: 20px;
   }
 
-
   /* NINTH SECTION */
   .ninth-section {
     max-width: max-content;
@@ -3035,7 +3009,6 @@ footer .copyright-container .information-rights-container p {
 
   /* TENTH SECTION */
   .tenth-section {
-    
     max-width: max-content;
     height: 1100px;
   }
@@ -3053,7 +3026,6 @@ footer .copyright-container .information-rights-container p {
   .tenth-section .content h1 {
     font-size: 35px;
     margin-top: 50px;
-
   }
 
   .tenth-section .content .desc {
@@ -3095,8 +3067,8 @@ footer .copyright-container .information-rights-container p {
     margin-bottom: 10px;
   }
 
-  .faq-container .title-and-button-container h1 {
-    font-size: 21px;
+  .faq-container h3 {
+    font-size: 2rem !important;
   }
 
   .faq-container .answer-content p {
@@ -3116,7 +3088,6 @@ footer .copyright-container .information-rights-container p {
   footer .buttons-container {
     display: none !important;
     height: 70%;
-    
   }
 
   footer .buttons-section {
