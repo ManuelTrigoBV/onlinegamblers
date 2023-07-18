@@ -463,7 +463,7 @@ body
 }
 
 .rate-section .text-section h1 {
-  max-width: 80%;
+  max-width: 50%;
   font-size: 60px;
   font-weight: bold;
 }
@@ -711,6 +711,18 @@ footer .copyright-container .information-rights-container p {
 }
 
 
+/* AVOIDING CARDS RESPONSIVE HELPER */
+
+.seventh-section .helper {
+  display: none !important;
+}
+
+.seventh-section .mobile-cards {
+  display: none !important;
+}
+
+/*======================================================*/
+
 /* RESPONSIVE DESIGN SECTIONS */
 
 /* DESKTOP - SMALLER RESOLUTIONS */
@@ -827,6 +839,7 @@ footer .copyright-container .information-rights-container p {
     font-size: 14px;
   }
 }
+
 
 /* DESKTOP - VERY SMALL RESOLUTIONS */
 
@@ -948,13 +961,13 @@ footer .copyright-container .information-rights-container p {
 
   .rate-section {
     display: block !important;
-    height: 1500px;
+    height: 1100px;
     position: relative;
     background-size: auto;
   }
 
   .rate-section img {
-    width: 350px;
+    width: 0px;
   }
 
   .rate-section .methods-container {
@@ -966,6 +979,7 @@ footer .copyright-container .information-rights-container p {
 
   .rate-section .text-section h1 {
     font-size: 50px;
+    max-width: 100%;
   }
 
   .methods-container {
@@ -1358,580 +1372,15 @@ footer .copyright-container .information-rights-container p {
   }
 }
 
-/* MOBILE - VERY SMALL TO SMALL DEVICE RESOLUTIONS */
 
-/*VERY SMALL DEVICES*/
-@media screen and (max-width: 340px) {
+/* MOBILE DEVICES COMPLETE RESPONSIVNESS */
+@media screen and (max-width: 450px) {
 
   .title-section {
     font-size: 20px;
-    text-align: start !important;
-    margin: 50px 10px;
-    max-width: 80%;
-  }
-
-  /* .w-100 {
-    width: max-content !important;
-  } */
-
-  .search-menu-container {
-    width: 320px !important;
-    /* display: none !important; */
-    height: 100px;
-    padding: 10px;
-  }
-
-  .menu-search-buttons .logo-container {
-    display: none !important;
-  }
-
-  .menu-search-buttons {
-    height: 50px;
-    width: 100% !important;
-  }
-
-  .buttons-container {
-    width: 250px !important;
-  }
-
-  .buttons-container a {
-    font-size: 10px;
-    margin: 0 10px;
-  }
-
-  /* .col-8 {
-    width: max-content !important;
-  } */
-
-  .search-icon-container {
-    width: 30px !important;
-  }
-
-  .search-icon-container img {
-    width: 20px;
-    height: 20px;
-  }
-
-  .hook-section {
-    /* min-width: 800px !important;
-    max-width: max-content !important; */
-    display: block !important;
-    height: 700px;
-  }
-
-  .hook-section .text-section {
-    margin-top: 100px;
-    /* min-width: 600px !important;
-    max-width: max-content; */
-    justify-content: start !important;
-    height: 200px;
-    align-items: end !important;
-  }
-
-  .hook-section .text-section div h1 {
-    font-size: 30px;
-  }
-
-  .hook-section .text-section div p {
-    font-size: 10px;
-  }
-
-  .hook-section .text-section div {
-    margin-right: 0;
-    max-width: 75%;
-    margin-left: 30px;
-  }
-
-  .hook-section .image-section {
-    height: 400px;
-    margin-left: 0 !important;
-    /* min-width: 600px !important;
-    max-width: max-content; */
-    justify-content: start !important;
-    align-items: start !important;
-  }
-
-  .hook-section .image-section img {
-    width: 250px;
-    height: 250px;
-    margin-left: 45px;
-  }
-
-
-  /*THIRD SECTION*/
-  .third-section {
-    min-width: 800px !important;
-    max-width: max-content;
-    min-height: 1800px;
-    max-height: max-content;
-  }
-
-  .third-section .content {
-    display: block !important;
-  }
-
-  .third-section .content .text-container {
-    height: 200px !important;
-    /* width: 100% !important; */
-    max-width: 350px;
-    justify-content: start !important;
-  }
-
-  .third-section .content .text-container div {
-    max-width: 100%;
-    padding: 20px;
-  }
-
-  .third-section .content .text-container h2 {
-    font-size: 25px;
-  }
-
-  .third-section .content .text-container p {
-    font-size: 10px;
-    
-  }
-
-  .cards-container {
-    align-items: start !important;
-    display: block !important;
-  }
-
-  .first-cards {
-    /* display:  flex !important; */
-    justify-content: start;
-    margin-left: 20px;
-  }
-
-  .second-cards {
-    /* display:  flex !important; */
-    justify-content: start;
-    margin-left: 20px;
-  }
-
-  .cards-container .card {
-    width: 250px;
-    margin-right: 15px;
-    margin-left: 10px;
-  }
-
-  /* FOURTH SECTION */
-  .fourth-section {
-    min-width: 800px;
-    max-width: max-content;
-    height: 1000px;
-  }
-
-  .fourth-section .strategies-container {
-    display: block !important;
-  }
-
-  .fourth-section .strategies-container .strategy-card {
-    width: 300px !important;
-    height: 260px;
-    margin-bottom: 15px;
-    margin-left: 10px;
-  }
-
-  .fourth-section .strategies-container .strategy-card .cheque-img {
-    width: 30px;
-    height: 30px;
-    margin-top: 20px;
-    margin-bottom: 15px;
-  }
-
-  .fourth-section .strategies-container .strategy-card h4 {
-    font-size: 20px;
-  }
-
-  .fourth-section .strategies-container .strategy-card p {
-    font-size: 10px;
-  }
-
-  /* FIFTH SECTION */
-
-  .fifth-section {
-    min-width: 800px !important;
-    max-width: max-content;
-    /* height: 800px; */
-    overflow: hidden;
-  }
-
-  .fifth-section .text-container {
-    height: 800px !important;
-  }
-
-  .fifth-section .text-container h6 {
-    font-size: 25px;
-    width: 250px;
-  }
-
-  .fifth-section .text-container div {
-    margin-left: 15px;
-  }
-
-  .fifth-section .text-container p {
-    width: 200px;
-    font-size: 10px;
-  }
-
-  .fifth-section .image-container {
-    position: absolute;
-  }
-
-  .fifth-section .bg-color {
-    height: 500px;
-  }
-
-  .fifth-section img {
-    width: 500px;
-    height: 300px;
-  }
-
-  /* SIXTH SECTION */
-  .sixth-section {
-    min-width: 800px;
-    max-width: max-content;
-    height: 1200px;
-  }
-
-  .sixth-section .title-section {
-    /* width: 50% !important; */
-    max-width: 300px;
-  }
-
-  .sixth-section .bonuses-container {
-    display: block !important;
-    margin-left: 0;
-  }
-
-  .sixth-section .bonus .text p {
-    font-size: 11px;
-  }
-
-  .sixth-section .bonus .text h6 {
-    font-size: 20px;
-  }
-
-  .sixth-section .bonus .image-container img {
-    width: 30px;
-    height: 30px;
-  }
-
-  .sixth-section .bg-image {
-    top: 85%;
-    left: 20%;
-    width: 300px;
-    height: 250px;
-  }
-
-  .sixth-section .bonus {
-    width: 300px;
-    height: 200px;
-  }
-
-  /* SEVENTH SECTION */
-  .seventh-section {
-    max-width: max-content;
-  }
-
-  .seventh-section .title-section-special {
-    font-size: 20px;
-  }
-
-  .seventh-section .avoiding-text {
-    font-size: 10px;
-    max-width: 85%;
-  }
-
-  .avoiding-casino-cards {
-    display: block !important;
-  }
-
-  .avoiding-card {
-    width: 300px !important;
-    margin-left: 10px;
-    height: 300px;
-  }
-
-  .avoiding-card .images-container {
-    height: 30%;
-  }
-
-  .avoiding-card .casino-title-and-rate .casino-title {
-    font-size: 20px;
-  }
-
-  .avoiding-card .casino-title-and-rate .casino-rate {
-    font-size: 12px;
-  }
-
-  .casino-error-container .error-text {
-    font-size: 10px;
-  }
-
-  /* EIGHTH SECTION */
-  .rate-section {
-    max-width: max-content;
-    height: 1200px;
-    display: block !important;
-    position: relative;
-    background-size: cover;
-    margin-top: 50px;
-  }
-
-  .rate-section .text-section {
-    width: 100% !important;
-    display: block !important;
-  }
-
-  .rate-section .text-section h1 {
-    font-size: 24px;
-    max-width: 80%;
-  }
-
-  .method-card .image-container img {
-    display: block !important;
-  }
-
-  .rate-section img {
-    display: none;
-  }
-
-  .methods-container {
-    height: 1500px !important;
-    position: absolute;
-    top: 15%;
-    width: 320px;
-  }
-
-  .method-container {
-    height: max-content;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    justify-content: start !important;
-    overflow: visible !important;
-    width: 300px !important;
-  }
-
-  .method-card {
-    display: block !important;
-    height: 330px;
-    width: 300px;
-    margin-left: 5px;
-  }
-
-  .method-card .text-container {
-    padding-right: 0;
-  }
-
-  .method-card .text-container p {
-    font-size: 10px;
-    margin-left: 20px;
-  }
-
-  .method-card .text-container h1 {
-    font-size: 15px;
-    margin-left: 20px;
-    margin-top: 30px;
-  }
-
-  .method-card .image-container {
-    width: 100% !important;
-  }
-
-  .method-card .image-container img {
-    width: 30px;
-    height: 30px;
-    margin-top: 20px;
-  }
-
-
-  /* NINTH SECTION */
-  .ninth-section {
-    max-width: max-content;
-  }
-
-  .labels-container {
-    width: 100%;
-  }
-
-  .labels-container .space {
-    display: none !important;
-  }
-
-  .online-container {
-    width: 50% !important;
-    justify-content: center !important;
-  }
-
-  .offline-container {
-    width: 50% !important;
-    justify-content: center !important;
-  }
-
-  .mode-content {
-    width: 110px;
-    height: 40px;
-  }
-
-  .mode-content h1 {
-    font-size: 14px;
-  }
-
-  .compare-container {
-  }
-
-  .compare-container .mode-text p {
-    font-size: 8px;
-  }
-
-  .compare-container .mode-text img {
-    margin-left: 5px;
-    width: 10px;
-    height: 10px;
-  }
-
-  .compare-container .mode-text .offline-img {
-    margin-right: 5px;
-    width: 10px;
-    height: 10px;
-  }
-
-  .compare-container .image-container h1 {
-    font-size: 13px;
-  }
-
-  .mode-text {
-    width: 35%;
-  }
-
-  .compare-container .image-container {
-    width: 30%;
-  }
-
-  .compare-container .image-container .image-border {
-    margin-top: 20px;
-  }
-
-  .compare-container .image-container .image-border img {
-    width: 60px;
-    height: 60px;
-  }
-
-  /* TENTH SECTION */
-  .tenth-section {
-    
-    max-width: max-content;
-    height: 1100px;
-  }
-
-  .tenth-section .space {
-    display: none !important;
-  }
-
-  .tenth-section .content {
-    width: 100% !important;
-    padding: 15px;
-  }
-
-  .tenth-section .content h1 {
-    font-size: 30px;
-    margin-top: 50px;
-
-  }
-
-  .tenth-section .content .desc {
-    font-size: 11px;
-  }
-
-  .tenth-section .content a {
-    font-size: 12px;
-  }
-
-  .payments-container {
-    display: block !important;
-  }
-
-  .payment-types-container {
-    width: 100% !important;
-  }
-
-  .payment-type p {
-    font-size: 18px;
-  }
-
-  .payment-type img {
-    width: 30px;
-    height: 30px;
-  }
-
-  /* FAQ SECTION */
-  .faq-section {
-    max-width: max-content;
-  }
-
-  .faq-section .center-content {
-    width: 100%;
-    padding: 10px;
-  }
-
-  .faq-container {
-    margin-bottom: 10px;
-  }
-
-  .faq-container .title-and-button-container h1 {
-    font-size: 18px;
-  }
-
-  .faq-container .answer-content p {
-    font-size: 11px;
-  }
-
-  .faq-container .title-and-button-container img {
-    width: 20px;
-    height: 20px;
-  }
-
-  /* FOOTER SECTION */
-  footer {
-    height: 1000px;
-    max-width: max-content;
-  }
-
-  footer .buttons-container {
-    display: block !important;
-    height: 70%;
-    
-  }
-
-  footer .buttons-section {
-    width: 100% !important;
+    text-align: center !important;
     margin: 30px 0;
-  }
-
-  footer .copyright-container {
-    height: 30%;
-    display: block !important;
-    padding-top: 20px;
-  }
-
-  .information-container {
-    width: 100% !important;
-    display: block !important;
-    height: max-content !important;
-    text-align: center;
-    margin-bottom: 40px;
-  }
-}
-
-/*SMALL DEVICES*/
-@media screen and (min-width: 341px) and (max-width: 370px) {
-
-  .title-section {
-    font-size: 20px;
-    text-align: start !important;
-    margin: 50px 10px;
-    max-width: 80%;
+    max-width: 100%;
   }
 
   /* .w-100 {
@@ -1940,7 +1389,7 @@ footer .copyright-container .information-rights-container p {
 
   .search-menu-container {
     width: 340px !important;
-    /* display: none !important; */
+    display: none !important;
     height: 100px;
     padding: 10px;
   }
@@ -1980,11 +1429,11 @@ footer .copyright-container .information-rights-container p {
     /* min-width: 800px !important;
     max-width: max-content !important; */
     display: block !important;
-    height: 700px;
+    height: 550px;
   }
 
   .hook-section .text-section {
-    margin-top: 100px;
+    margin-top: 10px;
     /* min-width: 600px !important;
     max-width: max-content; */
     justify-content: start !important;
@@ -1997,7 +1446,7 @@ footer .copyright-container .information-rights-container p {
   }
 
   .hook-section .text-section div p {
-    font-size: 10px;
+    font-size: 13px;
   }
 
   .hook-section .text-section div {
@@ -2024,10 +1473,7 @@ footer .copyright-container .information-rights-container p {
 
   /*THIRD SECTION*/
   .third-section {
-    min-width: 800px !important;
-    max-width: max-content;
-    min-height: 1800px;
-    max-height: max-content;
+    height: 1700px;
   }
 
   .third-section .content {
@@ -2036,14 +1482,15 @@ footer .copyright-container .information-rights-container p {
 
   .third-section .content .text-container {
     height: 200px !important;
-    /* width: 100% !important; */
-    max-width: 350px;
-    justify-content: start !important;
+    width: 100% !important;
+    
+    justify-content: center !important;
   }
 
   .third-section .content .text-container div {
-    max-width: 100%;
-    padding: 20px;
+    /* padding: 20px; */
+    max-width: 80%;
+    
   }
 
   .third-section .content .text-container h2 {
@@ -2051,8 +1498,8 @@ footer .copyright-container .information-rights-container p {
   }
 
   .third-section .content .text-container p {
-    font-size: 10px;
-    
+    font-size: 12px;
+    max-width: 100%;
   }
 
   .cards-container {
@@ -2060,16 +1507,16 @@ footer .copyright-container .information-rights-container p {
     display: block !important;
   }
 
-  .first-cards {
+  .cards-container .first-cards {
     /* display:  flex !important; */
     justify-content: start;
-    margin-left: 20px;
+    padding-bottom: 0;
+    width: 100%;
   }
 
   .second-cards {
     /* display:  flex !important; */
     justify-content: start;
-    margin-left: 20px;
   }
 
   .cards-container .card {
@@ -2080,20 +1527,25 @@ footer .copyright-container .information-rights-container p {
 
   /* FOURTH SECTION */
   .fourth-section {
-    min-width: 800px;
-    max-width: max-content;
-    height: 1000px;
+    height: 1050px;
   }
 
-  .fourth-section .strategies-container {
+  .fourth-section .desktop-mobile-strategies {
     display: block !important;
   }
 
+  .fourth-section .tablet-strategies {
+    display: none !important;
+  }
+
+  /* .fourth-section .strategies-container {
+    display: block !important;
+  } */
+
   .fourth-section .strategies-container .strategy-card {
-    width: 300px !important;
-    height: 260px;
+    /* width: 100% !important; */
+    height: 300px;
     margin-bottom: 15px;
-    margin-left: 35px;
   }
 
   .fourth-section .strategies-container .strategy-card .cheque-img {
@@ -2114,14 +1566,13 @@ footer .copyright-container .information-rights-container p {
   /* FIFTH SECTION */
 
   .fifth-section {
-    min-width: 800px !important;
-    max-width: max-content;
-    /* height: 800px; */
+    height: 500px;
     overflow: hidden;
   }
 
   .fifth-section .text-container {
-    height: 800px !important;
+    height: 100% !important;
+    align-items: start !important;
   }
 
   .fifth-section .text-container h6 {
@@ -2134,8 +1585,8 @@ footer .copyright-container .information-rights-container p {
   }
 
   .fifth-section .text-container p {
-    width: 200px;
-    font-size: 10px;
+    width: 100%;
+    font-size: 12px;
   }
 
   .fifth-section .image-container {
@@ -2143,7 +1594,7 @@ footer .copyright-container .information-rights-container p {
   }
 
   .fifth-section .bg-color {
-    height: 500px;
+    height: 100%;
   }
 
   .fifth-section img {
@@ -2153,14 +1604,13 @@ footer .copyright-container .information-rights-container p {
 
   /* SIXTH SECTION */
   .sixth-section {
-    min-width: 800px;
-    max-width: max-content;
+    
     height: 1200px;
   }
 
   .sixth-section .title-section {
     /* width: 50% !important; */
-    max-width: 300px;
+    
   }
 
   .sixth-section .bonuses-container {
@@ -2183,19 +1633,32 @@ footer .copyright-container .information-rights-container p {
 
   .sixth-section .bg-image {
     top: 85%;
-    left: 20%;
+    left: 50%;
     width: 300px;
     height: 250px;
   }
 
+  .first-bonuses,
+  .second-bonuses {
+    width: 100% !important;
+  }
+
   .sixth-section .bonus {
-    width: 330px;
+    width: 100%;
     height: 200px;
   }
 
   /* SEVENTH SECTION */
   .seventh-section {
     max-width: max-content;
+  }
+
+  .seventh-section .desktop-cards {
+    display: none !important;
+  }
+
+  .seventh-section .mobile-cards {
+    display: block !important;
   }
 
   .seventh-section .title-section-special {
@@ -2211,9 +1674,12 @@ footer .copyright-container .information-rights-container p {
     display: block !important;
   }
 
+  .avoiding-casino-cards .helper {
+    display: flex !important;
+  }
+
   .avoiding-card {
-    width: 300px !important;
-    margin-left: 35px;
+    width: 90% !important;
     height: 300px;
   }
 
@@ -2235,8 +1701,7 @@ footer .copyright-container .information-rights-container p {
 
   /* EIGHTH SECTION */
   .rate-section {
-    max-width: max-content;
-    height: 1200px;
+    height: 1380px;
     display: block !important;
     position: relative;
     background-size: cover;
@@ -2246,11 +1711,16 @@ footer .copyright-container .information-rights-container p {
   .rate-section .text-section {
     width: 100% !important;
     display: block !important;
+    padding: 10px;
+  }
+
+  .rate-section .text-section div {
+    width: 100%;
   }
 
   .rate-section .text-section h1 {
     font-size: 24px;
-    max-width: 80%;
+    max-width: 100%;
   }
 
   .method-card .image-container img {
@@ -2262,26 +1732,24 @@ footer .copyright-container .information-rights-container p {
   }
 
   .methods-container {
-    height: 1500px !important;
+    height: 100% !important;
     position: absolute;
-    top: 15%;
-    width: 320px;
+    top: 10%;
+    width: 100%;
   }
 
   .method-container {
     height: max-content;
     margin-bottom: 10px;
-    margin-left: 10px;
-    justify-content: start !important;
+    justify-content: center !important;
     overflow: visible !important;
-    width: 300px !important;
+    width: 100% !important;
   }
 
   .method-card {
     display: block !important;
-    height: 330px;
-    width: 300px;
-    margin-left: 30px;
+    height: 390px;
+    width: 90%;
   }
 
   .method-card .text-container {
@@ -2289,7 +1757,7 @@ footer .copyright-container .information-rights-container p {
   }
 
   .method-card .text-container p {
-    font-size: 10px;
+    font-size: 12px;
     margin-left: 20px;
   }
 
@@ -2315,8 +1783,13 @@ footer .copyright-container .information-rights-container p {
     max-width: max-content;
   }
 
+  .colored {
+    color: var(--compare-images-bg-color);
+  }
+
   .labels-container {
     width: 100%;
+    height: 100px;
   }
 
   .labels-container .space {
@@ -2346,7 +1819,7 @@ footer .copyright-container .information-rights-container p {
   }
 
   .compare-container .mode-text p {
-    font-size: 8px;
+    font-size: 10px;
   }
 
   .compare-container .mode-text img {
@@ -2396,6 +1869,7 @@ footer .copyright-container .information-rights-container p {
   .tenth-section .content {
     width: 100% !important;
     padding: 15px;
+    margin-left: 15px;
   }
 
   .tenth-section .content h1 {
@@ -2458,11 +1932,11 @@ footer .copyright-container .information-rights-container p {
 
   /* FOOTER SECTION */
   footer {
-    height: 1000px;
+    height: 240px;
   }
 
   footer .buttons-container {
-    display: block !important;
+    display: none !important;
     height: 70%;
     
   }
@@ -2473,7 +1947,7 @@ footer .copyright-container .information-rights-container p {
   }
 
   footer .copyright-container {
-    height: 30%;
+    height: 100%;
     display: block !important;
     padding-top: 20px;
   }
@@ -2487,14 +1961,14 @@ footer .copyright-container .information-rights-container p {
   }
 }
 
-/* BIG PHONE DEVICES */
-@media screen and (min-width: 371px) and (max-width: 420px) {
+/* MOBILE DEVICES TO SMALL TABLETS */
+@media screen and (min-width: 451px) and (max-width: 620px) {
 
   .title-section {
-    font-size: 20px;
-    text-align: start !important;
-    margin: 50px 10px;
-    max-width: 80%;
+    font-size: 26px;
+    text-align: center !important;
+    margin: 50px 0;
+    max-width: 100%;
   }
 
   /* .w-100 {
@@ -2502,8 +1976,8 @@ footer .copyright-container .information-rights-container p {
   } */
 
   .search-menu-container {
-    width: 370px !important;
-    /* display: none !important; */
+    width: 340px !important;
+    display: none !important;
     height: 100px;
     padding: 10px;
   }
@@ -2513,13 +1987,12 @@ footer .copyright-container .information-rights-container p {
   }
 
   .menu-search-buttons {
-    margin-left: 5px;
     height: 50px;
     width: 100% !important;
   }
 
   .buttons-container {
-    width: 280px !important;
+    width: 260px !important;
   }
 
   .buttons-container a {
@@ -2532,7 +2005,7 @@ footer .copyright-container .information-rights-container p {
   } */
 
   .search-icon-container {
-    width: 50px !important;
+    width: 30px !important;
   }
 
   .search-icon-container img {
@@ -2544,29 +2017,29 @@ footer .copyright-container .information-rights-container p {
     /* min-width: 800px !important;
     max-width: max-content !important; */
     display: block !important;
-    height: 700px;
+    height: 650px;
   }
 
   .hook-section .text-section {
-    margin-top: 150px;
+    margin-top: 10px;
     /* min-width: 600px !important;
     max-width: max-content; */
-    justify-content: start !important;
+    justify-content: center !important;
     height: 200px;
     align-items: end !important;
   }
 
   .hook-section .text-section div h1 {
-    font-size: 38px;
+    font-size: 35px;
   }
 
   .hook-section .text-section div p {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .hook-section .text-section div {
     margin-right: 0;
-    max-width: 85%;
+    max-width: 75%;
     margin-left: 30px;
   }
 
@@ -2575,23 +2048,19 @@ footer .copyright-container .information-rights-container p {
     margin-left: 0 !important;
     /* min-width: 600px !important;
     max-width: max-content; */
-    justify-content: start !important;
+    justify-content: center !important;
     align-items: start !important;
   }
 
   .hook-section .image-section img {
-    width: 250px;
-    height: 250px;
-    margin-left: 65px;
+    width: 350px;
+    height: 350px;
   }
 
 
   /*THIRD SECTION*/
   .third-section {
-    min-width: 800px !important;
-    max-width: max-content;
-    min-height: 1800px;
-    max-height: max-content;
+    height: 1700px;
   }
 
   .third-section .content {
@@ -2600,23 +2069,25 @@ footer .copyright-container .information-rights-container p {
 
   .third-section .content .text-container {
     height: 200px !important;
-    /* width: 100% !important; */
-    max-width: 350px;
-    justify-content: start !important;
+    width: 100% !important;
+    
+    justify-content: center !important;
   }
 
   .third-section .content .text-container div {
-    max-width: 100%;
-    padding: 20px;
+    /* padding: 20px; */
+    max-width: 80%;
+    
   }
 
   .third-section .content .text-container h2 {
-    font-size: 25px;
+    font-size: 31px;
+    margin-top: 20px;
   }
 
   .third-section .content .text-container p {
-    font-size: 10px;
-    
+    font-size: 15px;
+    max-width: 100%;
   }
 
   .cards-container {
@@ -2624,40 +2095,45 @@ footer .copyright-container .information-rights-container p {
     display: block !important;
   }
 
-  .first-cards {
+  .cards-container .first-cards {
     /* display:  flex !important; */
     justify-content: start;
-    margin-left: 20px;
+    padding-bottom: 0;
+    width: 100%;
   }
 
   .second-cards {
     /* display:  flex !important; */
     justify-content: start;
-    margin-left: 20px;
   }
 
   .cards-container .card {
     width: 250px;
     margin-right: 15px;
-    margin-left: 35px;
+    margin-left: 20px;
   }
 
   /* FOURTH SECTION */
   .fourth-section {
-    min-width: 800px;
-    max-width: max-content;
-    height: 1000px;
+    height: 1150px;
   }
 
-  .fourth-section .strategies-container {
+  .fourth-section .desktop-mobile-strategies {
+    display: none !important;
+  }
+
+  .fourth-section .tablet-strategies {
     display: block !important;
   }
 
+  /* .fourth-section .strategies-container {
+    display: block !important;
+  } */
+
   .fourth-section .strategies-container .strategy-card {
-    width: 360px !important;
-    height: 270px;
+    width: 80% !important;
+    height: 300px;
     margin-bottom: 15px;
-    margin-left: 15px;
   }
 
   .fourth-section .strategies-container .strategy-card .cheque-img {
@@ -2668,41 +2144,37 @@ footer .copyright-container .information-rights-container p {
   }
 
   .fourth-section .strategies-container .strategy-card h4 {
-    font-size: 22px;
+    font-size: 25px;
   }
 
   .fourth-section .strategies-container .strategy-card p {
-    font-size: 11px;
+    font-size: 14px;
   }
 
   /* FIFTH SECTION */
 
   .fifth-section {
-    min-width: 800px !important;
-    max-width: max-content;
-    /* height: 800px; */
+    height: 500px;
     overflow: hidden;
   }
 
   .fifth-section .text-container {
-    height: 800px !important;
-    width: 100% !important;
-    justify-content: start !important;
+    height: 100% !important;
+    align-items: start !important;
   }
 
   .fifth-section .text-container h6 {
     font-size: 29px;
-    max-width: 80%;
+    /* width: 250px; */
   }
 
   .fifth-section .text-container div {
     margin-left: 15px;
-    max-width: 100%;
   }
 
   .fifth-section .text-container p {
-    max-width: 70%;
-    font-size: 12px;
+    width: 100%;
+    font-size: 15px;
   }
 
   .fifth-section .image-container {
@@ -2710,24 +2182,23 @@ footer .copyright-container .information-rights-container p {
   }
 
   .fifth-section .bg-color {
-    height: 500px;
+    height: 100%;
   }
 
   .fifth-section img {
-    width: 500px;
-    height: 320px;
+    width: 600px;
+    height: 350px;
   }
 
   /* SIXTH SECTION */
   .sixth-section {
-    min-width: 800px;
-    max-width: max-content;
+    
     height: 1200px;
   }
 
   .sixth-section .title-section {
     /* width: 50% !important; */
-    max-width: 370px;
+    
   }
 
   .sixth-section .bonuses-container {
@@ -2736,11 +2207,11 @@ footer .copyright-container .information-rights-container p {
   }
 
   .sixth-section .bonus .text p {
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .sixth-section .bonus .text h6 {
-    font-size: 22px;
+    font-size: 24px;
   }
 
   .sixth-section .bonus .image-container img {
@@ -2750,13 +2221,18 @@ footer .copyright-container .information-rights-container p {
 
   .sixth-section .bg-image {
     top: 85%;
-    left: 25%;
-    width: 350px;
-    height: 290px;
+    left: 50%;
+    width: 450px;
+    height: 350px;
+  }
+
+  .first-bonuses,
+  .second-bonuses {
+    width: 100% !important;
   }
 
   .sixth-section .bonus {
-    width: 370px;
+    width: 100%;
     height: 200px;
   }
 
@@ -2765,8 +2241,16 @@ footer .copyright-container .information-rights-container p {
     max-width: max-content;
   }
 
+  .seventh-section .desktop-cards {
+    display: none !important;
+  }
+
+  .seventh-section .mobile-cards {
+    display: block !important;
+  }
+
   .seventh-section .title-section-special {
-    font-size: 24px;
+    font-size: 26px;
   }
 
   .seventh-section .avoiding-text {
@@ -2778,10 +2262,13 @@ footer .copyright-container .information-rights-container p {
     display: block !important;
   }
 
+  .avoiding-casino-cards .helper {
+    display: flex !important;
+  }
+
   .avoiding-card {
-    width: 340px !important;
-    margin-left: 30px;
-    height: 320px;
+    width: 90% !important;
+    height: 300px;
   }
 
   .avoiding-card .images-container {
@@ -2789,21 +2276,20 @@ footer .copyright-container .information-rights-container p {
   }
 
   .avoiding-card .casino-title-and-rate .casino-title {
-    font-size: 22px;
+    font-size: 24px;
   }
 
   .avoiding-card .casino-title-and-rate .casino-rate {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .casino-error-container .error-text {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   /* EIGHTH SECTION */
   .rate-section {
-    max-width: max-content;
-    height: 1200px;
+    height: 1380px;
     display: block !important;
     position: relative;
     background-size: cover;
@@ -2813,11 +2299,16 @@ footer .copyright-container .information-rights-container p {
   .rate-section .text-section {
     width: 100% !important;
     display: block !important;
+    padding: 10px;
+  }
+
+  .rate-section .text-section div {
+    width: 100%;
   }
 
   .rate-section .text-section h1 {
-    font-size: 24px;
-    max-width: 80%;
+    font-size: 27px;
+    max-width: 100%;
   }
 
   .method-card .image-container img {
@@ -2829,26 +2320,24 @@ footer .copyright-container .information-rights-container p {
   }
 
   .methods-container {
-    height: 1500px !important;
+    height: 100% !important;
     position: absolute;
-    top: 15%;
-    width: 370px;
+    top: 10%;
+    width: 100%;
   }
 
   .method-container {
     height: max-content;
     margin-bottom: 10px;
-    margin-left: 10px;
-    justify-content: start !important;
+    justify-content: center !important;
     overflow: visible !important;
-    width: 360px !important;
+    width: 100% !important;
   }
 
   .method-card {
     display: block !important;
-    height: 330px;
-    width: 360px;
-    margin-left: 30px;
+    height: 390px;
+    width: 90%;
   }
 
   .method-card .text-container {
@@ -2856,12 +2345,12 @@ footer .copyright-container .information-rights-container p {
   }
 
   .method-card .text-container p {
-    font-size: 10px;
+    font-size: 14px;
     margin-left: 20px;
   }
 
   .method-card .text-container h1 {
-    font-size: 15px;
+    font-size: 19px;
     margin-left: 20px;
     margin-top: 30px;
   }
@@ -2882,8 +2371,13 @@ footer .copyright-container .information-rights-container p {
     max-width: max-content;
   }
 
+  .colored {
+    color: var(--compare-images-bg-color);
+  }
+
   .labels-container {
     width: 100%;
+    height: 100px;
   }
 
   .labels-container .space {
@@ -2906,14 +2400,14 @@ footer .copyright-container .information-rights-container p {
   }
 
   .mode-content h1 {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .compare-container {
   }
 
   .compare-container .mode-text p {
-    font-size: 10px;
+    font-size: 13px;
   }
 
   .compare-container .mode-text img {
@@ -2953,7 +2447,7 @@ footer .copyright-container .information-rights-container p {
   .tenth-section {
     
     max-width: max-content;
-    height: 1200px;
+    height: 1100px;
   }
 
   .tenth-section .space {
@@ -2962,7 +2456,8 @@ footer .copyright-container .information-rights-container p {
 
   .tenth-section .content {
     width: 100% !important;
-    padding: 25px;
+    padding: 15px;
+    margin-left: 15px;
   }
 
   .tenth-section .content h1 {
@@ -2997,12 +2492,12 @@ footer .copyright-container .information-rights-container p {
   }
 
   /* FAQ SECTION */
-  .faq-section {
+  /* .faq-section {
     max-width: max-content;
-  }
+  } */
 
   .faq-section .center-content {
-    width: 100%;
+    width: 80%;
     padding: 10px;
   }
 
@@ -3011,11 +2506,11 @@ footer .copyright-container .information-rights-container p {
   }
 
   .faq-container .title-and-button-container h1 {
-    font-size: 18px;
+    font-size: 21px;
   }
 
   .faq-container .answer-content p {
-    font-size: 11px;
+    font-size: 13px;
   }
 
   .faq-container .title-and-button-container img {
@@ -3025,11 +2520,11 @@ footer .copyright-container .information-rights-container p {
 
   /* FOOTER SECTION */
   footer {
-    height: 1000px;
+    height: 240px;
   }
 
   footer .buttons-container {
-    display: block !important;
+    display: none !important;
     height: 70%;
     
   }
@@ -3040,7 +2535,7 @@ footer .copyright-container .information-rights-container p {
   }
 
   footer .copyright-container {
-    height: 30%;
+    height: 100%;
     display: block !important;
     padding-top: 20px;
   }
@@ -3054,14 +2549,15 @@ footer .copyright-container .information-rights-container p {
   }
 }
 
-/* VERY BIG PHONE DEVICES */
-@media screen and (min-width: 421px) and (max-width: 500px) {
+
+/* NORMAL TO BIG TABLETS */
+@media screen and (min-width: 621px) and (max-width: 899px) {
 
   .title-section {
-    font-size: 24px;
-    text-align: start !important;
-    margin: 50px 30px;
-    max-width: 80%;
+    font-size: 26px;
+    text-align: center !important;
+    margin: 50px 0;
+    max-width: 100%;
   }
 
   /* .w-100 {
@@ -3069,8 +2565,8 @@ footer .copyright-container .information-rights-container p {
   } */
 
   .search-menu-container {
-    width: 420px !important;
-    /* display: none !important; */
+    width: 340px !important;
+    display: none !important;
     height: 100px;
     padding: 10px;
   }
@@ -3080,14 +2576,12 @@ footer .copyright-container .information-rights-container p {
   }
 
   .menu-search-buttons {
-    margin-left: 15px;
     height: 50px;
     width: 100% !important;
   }
 
   .buttons-container {
-    width: 320px !important;
-    justify-content: center !important;
+    width: 260px !important;
   }
 
   .buttons-container a {
@@ -3100,7 +2594,7 @@ footer .copyright-container .information-rights-container p {
   } */
 
   .search-icon-container {
-    width: 70px !important;
+    width: 30px !important;
   }
 
   .search-icon-container img {
@@ -3112,14 +2606,14 @@ footer .copyright-container .information-rights-container p {
     /* min-width: 800px !important;
     max-width: max-content !important; */
     display: block !important;
-    height: 800px;
+    height: 650px;
   }
 
   .hook-section .text-section {
-    margin-top: 150px;
+    margin-top: 10px;
     /* min-width: 600px !important;
     max-width: max-content; */
-    justify-content: start !important;
+    justify-content: center !important;
     height: 200px;
     align-items: end !important;
   }
@@ -3129,12 +2623,12 @@ footer .copyright-container .information-rights-container p {
   }
 
   .hook-section .text-section div p {
-    font-size: 14px;
+    font-size: 18px;
   }
 
   .hook-section .text-section div {
     margin-right: 0;
-    max-width: 85%;
+    max-width: 75%;
     margin-left: 30px;
   }
 
@@ -3143,23 +2637,19 @@ footer .copyright-container .information-rights-container p {
     margin-left: 0 !important;
     /* min-width: 600px !important;
     max-width: max-content; */
-    justify-content: start !important;
+    justify-content: center !important;
     align-items: start !important;
   }
 
   .hook-section .image-section img {
     width: 350px;
     height: 350px;
-    margin-left: 45px;
   }
 
 
   /*THIRD SECTION*/
   .third-section {
-    min-width: 800px !important;
-    max-width: max-content;
-    min-height: 1800px;
-    max-height: max-content;
+    height: 1700px;
   }
 
   .third-section .content {
@@ -3168,23 +2658,25 @@ footer .copyright-container .information-rights-container p {
 
   .third-section .content .text-container {
     height: 200px !important;
-    /* width: 100% !important; */
-    max-width: 420px;
-    justify-content: start !important;
+    width: 100% !important;
+    
+    justify-content: center !important;
   }
 
   .third-section .content .text-container div {
-    max-width: 100%;
-    padding: 30px;
+    /* padding: 20px; */
+    max-width: 80%;
+    
   }
 
   .third-section .content .text-container h2 {
-    font-size: 28px;
+    font-size: 31px;
+    margin-top: 20px;
   }
 
   .third-section .content .text-container p {
-    font-size: 12px;
-    
+    font-size: 15px;
+    max-width: 100%;
   }
 
   .cards-container {
@@ -3192,40 +2684,45 @@ footer .copyright-container .information-rights-container p {
     display: block !important;
   }
 
-  .first-cards {
+  .cards-container .first-cards {
     /* display:  flex !important; */
     justify-content: start;
-    margin-left: 20px;
+    padding-bottom: 0;
+    width: 100%;
   }
 
   .second-cards {
     /* display:  flex !important; */
     justify-content: start;
-    margin-left: 20px;
   }
 
   .cards-container .card {
     width: 250px;
     margin-right: 15px;
-    margin-left: 65px;
+    margin-left: 20px;
   }
 
   /* FOURTH SECTION */
   .fourth-section {
-    /* min-width: 800px; */
-    max-width: max-content;
-    height: 1000px;
+    height: 1150px;
   }
 
-  .fourth-section .strategies-container {
+  .fourth-section .desktop-mobile-strategies {
+    display: none !important;
+  }
+
+  .fourth-section .tablet-strategies {
     display: block !important;
   }
 
+  /* .fourth-section .strategies-container {
+    display: block !important;
+  } */
+
   .fourth-section .strategies-container .strategy-card {
-    width: 360px !important;
-    height: 270px;
+    width: 70% !important;
+    height: 300px;
     margin-bottom: 15px;
-    margin-left: 55px;
   }
 
   .fourth-section .strategies-container .strategy-card .cheque-img {
@@ -3236,41 +2733,37 @@ footer .copyright-container .information-rights-container p {
   }
 
   .fourth-section .strategies-container .strategy-card h4 {
-    font-size: 22px;
+    font-size: 25px;
   }
 
   .fourth-section .strategies-container .strategy-card p {
-    font-size: 11px;
+    font-size: 16px;
   }
 
   /* FIFTH SECTION */
 
   .fifth-section {
-    min-width: 800px !important;
-    max-width: max-content;
-    /* height: 800px; */
+    height: 550px;
     overflow: hidden;
   }
 
   .fifth-section .text-container {
-    height: 800px !important;
-    width: 100% !important;
-    justify-content: start !important;
+    height: 100% !important;
+    align-items: start !important;
   }
 
   .fifth-section .text-container h6 {
-    font-size: 29px;
-    max-width: 80%;
+    font-size: 34px;
+    /* width: 250px; */
   }
 
   .fifth-section .text-container div {
-    margin-left: 25px;
-    max-width: 100%;
+    margin-left: 15px;
   }
 
   .fifth-section .text-container p {
-    max-width: 70%;
-    font-size: 12px;
+    width: 90%;
+    font-size: 18px;
   }
 
   .fifth-section .image-container {
@@ -3278,24 +2771,23 @@ footer .copyright-container .information-rights-container p {
   }
 
   .fifth-section .bg-color {
-    height: 500px;
+    height: 100%;
   }
 
   .fifth-section img {
-    width: 500px;
-    height: 320px;
+    width: 650px;
+    height: 400px;
   }
 
   /* SIXTH SECTION */
   .sixth-section {
-    min-width: 800px;
-    max-width: max-content;
+    
     height: 1200px;
   }
 
   .sixth-section .title-section {
     /* width: 50% !important; */
-    max-width: 370px;
+    
   }
 
   .sixth-section .bonuses-container {
@@ -3304,11 +2796,11 @@ footer .copyright-container .information-rights-container p {
   }
 
   .sixth-section .bonus .text p {
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .sixth-section .bonus .text h6 {
-    font-size: 22px;
+    font-size: 24px;
   }
 
   .sixth-section .bonus .image-container img {
@@ -3318,13 +2810,18 @@ footer .copyright-container .information-rights-container p {
 
   .sixth-section .bg-image {
     top: 85%;
-    left: 28%;
-    width: 350px;
-    height: 290px;
+    left: 50%;
+    width: 450px;
+    height: 350px;
+  }
+
+  .first-bonuses,
+  .second-bonuses {
+    width: 100% !important;
   }
 
   .sixth-section .bonus {
-    width: 420px;
+    width: 100%;
     height: 200px;
   }
 
@@ -3333,8 +2830,16 @@ footer .copyright-container .information-rights-container p {
     max-width: max-content;
   }
 
+  .seventh-section .desktop-cards {
+    display: none !important;
+  }
+
+  .seventh-section .mobile-cards {
+    display: block !important;
+  }
+
   .seventh-section .title-section-special {
-    font-size: 24px;
+    font-size: 26px;
   }
 
   .seventh-section .avoiding-text {
@@ -3346,10 +2851,13 @@ footer .copyright-container .information-rights-container p {
     display: block !important;
   }
 
+  .avoiding-casino-cards .helper {
+    display: flex !important;
+  }
+
   .avoiding-card {
-    width: 340px !important;
-    margin-left: 60px;
-    height: 320px;
+    width: 60% !important;
+    height: 300px;
   }
 
   .avoiding-card .images-container {
@@ -3357,21 +2865,20 @@ footer .copyright-container .information-rights-container p {
   }
 
   .avoiding-card .casino-title-and-rate .casino-title {
-    font-size: 22px;
+    font-size: 24px;
   }
 
   .avoiding-card .casino-title-and-rate .casino-rate {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .casino-error-container .error-text {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   /* EIGHTH SECTION */
   .rate-section {
-    max-width: max-content;
-    height: 1400px;
+    height: 1380px;
     display: block !important;
     position: relative;
     background-size: cover;
@@ -3381,11 +2888,17 @@ footer .copyright-container .information-rights-container p {
   .rate-section .text-section {
     width: 100% !important;
     display: block !important;
+    padding: 10px;
+  }
+
+  .rate-section .text-section div {
+    text-align: center;
+    width: 100%;
   }
 
   .rate-section .text-section h1 {
-    font-size: 24px;
-    max-width: 80%;
+    font-size: 29px;
+    max-width: 100%;
   }
 
   .method-card .image-container img {
@@ -3397,26 +2910,24 @@ footer .copyright-container .information-rights-container p {
   }
 
   .methods-container {
-    height: 1500px !important;
+    height: 100% !important;
     position: absolute;
-    top: 15%;
-    width: 420px;
+    top: 10%;
+    width: 100%;
   }
 
   .method-container {
     height: max-content;
     margin-bottom: 10px;
-    margin-left: 10px;
-    justify-content: start !important;
+    justify-content: center !important;
     overflow: visible !important;
-    width: 400px !important;
+    width: 100% !important;
   }
 
   .method-card {
     display: block !important;
-    height: 350px;
-    width: 400px;
-    margin-left: 30px;
+    height: 390px;
+    width: 60%;
   }
 
   .method-card .text-container {
@@ -3424,12 +2935,12 @@ footer .copyright-container .information-rights-container p {
   }
 
   .method-card .text-container p {
-    font-size: 11px;
+    font-size: 14px;
     margin-left: 20px;
   }
 
   .method-card .text-container h1 {
-    font-size: 17px;
+    font-size: 19px;
     margin-left: 20px;
     margin-top: 30px;
   }
@@ -3450,8 +2961,13 @@ footer .copyright-container .information-rights-container p {
     max-width: max-content;
   }
 
+  .colored {
+    color: var(--compare-images-bg-color);
+  }
+
   .labels-container {
     width: 100%;
+    height: 100px;
   }
 
   .labels-container .space {
@@ -3474,30 +2990,30 @@ footer .copyright-container .information-rights-container p {
   }
 
   .mode-content h1 {
-    font-size: 14px;
+    font-size: 18px;
   }
 
   .compare-container {
   }
 
   .compare-container .mode-text p {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .compare-container .mode-text img {
-    margin-left: 10px;
+    margin-left: 5px;
     width: 10px;
     height: 10px;
   }
 
   .compare-container .mode-text .offline-img {
-    margin-right: 10px;
+    margin-right: 5px;
     width: 10px;
     height: 10px;
   }
 
   .compare-container .image-container h1 {
-    font-size: 13px;
+    font-size: 16px;
   }
 
   .mode-text {
@@ -3521,7 +3037,7 @@ footer .copyright-container .information-rights-container p {
   .tenth-section {
     
     max-width: max-content;
-    height: 1200px;
+    height: 1100px;
   }
 
   .tenth-section .space {
@@ -3530,577 +3046,8 @@ footer .copyright-container .information-rights-container p {
 
   .tenth-section .content {
     width: 100% !important;
-    padding: 25px;
-  }
-
-  .tenth-section .content h1 {
-    font-size: 35px;
-    margin-top: 50px;
-
-  }
-
-  .tenth-section .content .desc {
-    font-size: 14px;
-  }
-
-  .tenth-section .content a {
-    font-size: 12px;
-  }
-
-  .payments-container {
-    display: block !important;
-  }
-
-  .payment-types-container {
-    width: 100% !important;
-  }
-
-  .payment-type p {
-    font-size: 20px;
-  }
-
-  .payment-type img {
-    width: 40px;
-    height: 40px;
-  }
-
-  /* FAQ SECTION */
-  .faq-section {
-    max-width: max-content;
-  }
-
-  .faq-section .center-content {
-    width: 80%;
-    padding: 10px;
-  }
-
-  .faq-container {
-    margin-bottom: 10px;
-  }
-
-  .faq-container .title-and-button-container h1 {
-    font-size: 18px;
-  }
-
-  .faq-container .answer-content p {
-    font-size: 11px;
-  }
-
-  .faq-container .title-and-button-container img {
-    width: 20px;
-    height: 20px;
-  }
-
-  /* FOOTER SECTION */
-  footer {
-    height: 1000px;
-  }
-
-  footer .buttons-container {
-    display: block !important;
-    height: 70%;
-    
-  }
-
-  footer .buttons-section {
-    width: 100% !important;
-    margin: 30px 0;
-  }
-
-  footer .copyright-container {
-    height: 30%;
-    display: block !important;
-    padding-top: 20px;
-  }
-
-  .information-container {
-    width: 100% !important;
-    display: block !important;
-    height: max-content !important;
-    text-align: center;
-    margin-bottom: 40px;
-  }
-}
-
-/* VERY SMALL TABLETS */
-
-@media screen and (min-width: 501px) and (max-width: 600px) {
-
-  .title-section {
-    font-size: 24px;
-    text-align: start !important;
-    margin: 50px 30px;
-    max-width: 80%;
-  }
-
-  /* .w-100 {
-    width: max-content !important;
-  } */
-
-  .search-menu-container {
-    width: 490px !important;
-    /* display: none !important; */
-    height: 100px;
-    padding: 10px;
-  }
-
-  .menu-search-buttons .logo-container {
-    display: none !important;
-  }
-
-  .menu-search-buttons {
+    padding: 15px;
     margin-left: 15px;
-    height: 50px;
-    width: 100% !important;
-  }
-
-  .buttons-container {
-    width: 390px !important;
-    justify-content: center !important;
-  }
-
-  .buttons-container a {
-    font-size: 12px;
-    margin: 0 10px;
-  }
-
-  /* .col-8 {
-    width: max-content !important;
-  } */
-
-  .search-icon-container {
-    width: 70px !important;
-  }
-
-  .search-icon-container img {
-    width: 20px;
-    height: 20px;
-  }
-
-  .hook-section {
-    /* min-width: 800px !important;
-    max-width: max-content !important; */
-    display: block !important;
-    height: 800px;
-  }
-
-  .hook-section .text-section {
-    margin-top: 150px;
-    /* min-width: 600px !important;
-    max-width: max-content; */
-    justify-content: start !important;
-    height: 200px;
-    align-items: end !important;
-  }
-
-  .hook-section .text-section div h1 {
-    font-size: 38px;
-  }
-
-  .hook-section .text-section div p {
-    font-size: 14px;
-  }
-
-  .hook-section .text-section div {
-    margin-right: 0;
-    max-width: 85%;
-    margin-left: 30px;
-  }
-
-  .hook-section .image-section {
-    height: 400px;
-    margin-left: 0 !important;
-    /* min-width: 600px !important;
-    max-width: max-content; */
-    justify-content: start !important;
-    align-items: start !important;
-  }
-
-  .hook-section .image-section img {
-    width: 350px;
-    height: 350px;
-    margin-left: 85px;
-  }
-
-
-  /*THIRD SECTION*/
-  .third-section {
-    min-width: 700px !important;
-    max-width: max-content;
-    min-height: 1800px;
-    max-height: max-content;
-  }
-
-  .third-section .content {
-    display: block !important;
-  }
-
-  .third-section .content .text-container {
-    height: 200px !important;
-    /* width: 100% !important; */
-    max-width: 490px;
-    justify-content: start !important;
-  }
-
-  .third-section .content .text-container div {
-    max-width: 100%;
-    padding: 30px;
-    margin-left: 30px;
-  }
-
-  .third-section .content .text-container h2 {
-    font-size: 30px;
-  }
-
-  .third-section .content .text-container p {
-    font-size: 12px;
-    
-  }
-
-  .cards-container {
-    align-items: start !important;
-    display: block !important;
-  }
-
-  .first-cards {
-    /* display:  flex !important; */
-    justify-content: start;
-    margin-left: 20px;
-  }
-
-  .second-cards {
-    /* display:  flex !important; */
-    justify-content: start;
-    margin-left: 20px;
-  }
-
-  .cards-container .card {
-    width: 250px;
-    margin-right: 15px;
-    margin-left: 105px;
-  }
-
-  /* FOURTH SECTION */
-  .fourth-section {
-    /* min-width: 800px; */
-    max-width: max-content;
-    height: 1000px;
-  }
-
-  .fourth-section .strategies-container {
-    display: block !important;
-  }
-
-  .fourth-section .strategies-container .strategy-card {
-    width: 360px !important;
-    height: 270px;
-    margin-bottom: 15px;
-    margin-left: 95px;
-  }
-
-  .fourth-section .strategies-container .strategy-card .cheque-img {
-    width: 30px;
-    height: 30px;
-    margin-top: 20px;
-    margin-bottom: 15px;
-  }
-
-  .fourth-section .strategies-container .strategy-card h4 {
-    font-size: 22px;
-  }
-
-  .fourth-section .strategies-container .strategy-card p {
-    font-size: 11px;
-  }
-
-  /* FIFTH SECTION */
-
-  .fifth-section {
-    min-width: 800px !important;
-    max-width: max-content;
-    /* height: 800px; */
-    overflow: hidden;
-  }
-
-  .fifth-section .text-container {
-    height: 800px !important;
-    width: 100% !important;
-    justify-content: start !important;
-  }
-
-  .fifth-section .text-container h6 {
-    font-size: 29px;
-    max-width: 80%;
-  }
-
-  .fifth-section .text-container div {
-    margin-left: 45px;
-    max-width: 100%;
-  }
-
-  .fifth-section .text-container p {
-    max-width: 70%;
-    font-size: 12px;
-  }
-
-  .fifth-section .image-container {
-    position: absolute;
-  }
-
-  .fifth-section .bg-color {
-    height: 500px;
-  }
-
-  .fifth-section img {
-    width: 500px;
-    height: 320px;
-  }
-
-  /* SIXTH SECTION */
-  .sixth-section {
-    min-width: 800px;
-    max-width: max-content;
-    height: 1200px;
-  }
-
-  /* .sixth-section .title-section {
-    
-    max-width: 480px;
-  } */
-
-  .sixth-section .bonuses-container {
-    display: block !important;
-    margin-left: 0;
-  }
-
-  .sixth-section .bonus .text p {
-    font-size: 14px;
-  }
-
-  .sixth-section .bonus .text h6 {
-    font-size: 24px;
-  }
-
-  .sixth-section .bonus .image-container img {
-    width: 30px;
-    height: 30px;
-  }
-
-  .sixth-section .bg-image {
-    top: 85%;
-    left: 35%;
-    width: 360px;
-    height: 290px;
-  }
-
-  .sixth-section .bonus {
-    width: 490px;
-    height: 200px;
-  }
-
-  /* SEVENTH SECTION */
-  .seventh-section {
-    max-width: max-content;
-  }
-
-  .seventh-section .title-section-special {
-    font-size: 24px;
-  }
-
-  .seventh-section .avoiding-text {
-    font-size: 14px;
-    max-width: 85%;
-  }
-
-  .avoiding-casino-cards {
-    display: block !important;
-  }
-
-  .avoiding-card {
-    width: 340px !important;
-    margin-left: 110px;
-    height: 320px;
-  }
-
-  .avoiding-card .images-container {
-    height: 30%;
-  }
-
-  .avoiding-card .casino-title-and-rate .casino-title {
-    font-size: 22px;
-  }
-
-  .avoiding-card .casino-title-and-rate .casino-rate {
-    font-size: 14px;
-  }
-
-  .casino-error-container .error-text {
-    font-size: 12px;
-  }
-
-  /* EIGHTH SECTION */
-  .rate-section {
-    max-width: max-content;
-    height: 1400px;
-    display: block !important;
-    position: relative;
-    background-size: cover;
-    margin-top: 50px;
-  }
-
-  .rate-section .text-section {
-    width: 100% !important;
-    display: block !important;
-  }
-
-  .rate-section .text-section h1 {
-    font-size: 24px;
-    max-width: 80%;
-  }
-
-  .method-card .image-container img {
-    display: block !important;
-  }
-
-  .rate-section img {
-    display: none;
-  }
-
-  .methods-container {
-    height: 1500px !important;
-    position: absolute;
-    top: 15%;
-    width: 500px;
-  }
-
-  .method-container {
-    height: max-content;
-    margin-bottom: 10px;
-    margin-left: 40px;
-    justify-content: start !important;
-    overflow: visible !important;
-    width: 430px !important;
-  }
-
-  .method-card {
-    display: block !important;
-    height: 360px;
-    width: 430px;
-    margin-left: 30px;
-  }
-
-  .method-card .text-container {
-    padding-right: 0;
-  }
-
-  .method-card .text-container p {
-    font-size: 12px;
-    margin-left: 20px;
-  }
-
-  .method-card .text-container h1 {
-    font-size: 19px;
-    margin-left: 20px;
-    margin-top: 30px;
-  }
-
-  .method-card .image-container {
-    width: 100% !important;
-  }
-
-  .method-card .image-container img {
-    width: 40px;
-    height: 40px;
-    margin-top: 20px;
-  }
-
-
-  /* NINTH SECTION */
-  .ninth-section {
-    max-width: max-content;
-  }
-
-  .labels-container {
-    width: 100%;
-  }
-
-  .labels-container .space {
-    display: none !important;
-  }
-
-  .online-container {
-    width: 50% !important;
-    justify-content: center !important;
-  }
-
-  .offline-container {
-    width: 50% !important;
-    justify-content: center !important;
-  }
-
-  .mode-content {
-    width: 110px;
-    height: 40px;
-  }
-
-  .mode-content h1 {
-    font-size: 16px;
-  }
-
-  .compare-container {
-  }
-
-  .compare-container .mode-text p {
-    font-size: 13px;
-  }
-
-  .compare-container .mode-text img {
-    margin-left: 10px;
-    width: 15px;
-    height: 15px;
-  }
-
-  .compare-container .mode-text .offline-img {
-    margin-right: 10px;
-    width: 15px;
-    height: 15px;
-  }
-
-  .compare-container .image-container h1 {
-    font-size: 16px;
-  }
-
-  .mode-text {
-    width: 35%;
-  }
-
-  .compare-container .image-container {
-    width: 30%;
-  }
-
-  .compare-container .image-container .image-border {
-    margin-top: 20px;
-  }
-
-  .compare-container .image-container .image-border img {
-    width: 70px;
-    height: 70px;
-  }
-
-  /* TENTH SECTION */
-  .tenth-section {
-    
-    max-width: max-content;
-    height: 1200px;
-  }
-
-  .tenth-section .space {
-    display: none !important;
-  }
-
-  .tenth-section .content {
-    width: 100% !important;
-    padding: 25px;
   }
 
   .tenth-section .content h1 {
@@ -4135,9 +3082,9 @@ footer .copyright-container .information-rights-container p {
   }
 
   /* FAQ SECTION */
-  .faq-section {
-    /* max-width: max-content; */
-  }
+  /* .faq-section {
+    max-width: max-content;
+  } */
 
   .faq-section .center-content {
     width: 80%;
@@ -4149,11 +3096,11 @@ footer .copyright-container .information-rights-container p {
   }
 
   .faq-container .title-and-button-container h1 {
-    font-size: 18px;
+    font-size: 21px;
   }
 
   .faq-container .answer-content p {
-    font-size: 11px;
+    font-size: 13px;
   }
 
   .faq-container .title-and-button-container img {
@@ -4163,11 +3110,11 @@ footer .copyright-container .information-rights-container p {
 
   /* FOOTER SECTION */
   footer {
-    height: 1000px;
+    height: 240px;
   }
 
   footer .buttons-container {
-    display: block !important;
+    display: none !important;
     height: 70%;
     
   }
@@ -4178,7 +3125,7 @@ footer .copyright-container .information-rights-container p {
   }
 
   footer .copyright-container {
-    height: 30%;
+    height: 100%;
     display: block !important;
     padding-top: 20px;
   }
@@ -4192,1149 +3139,4 @@ footer .copyright-container .information-rights-container p {
   }
 }
 
-/* SMALL TABLETS */
-@media screen and (min-width: 601px) and (max-width: 700px) {
-
-  .title-section {
-    font-size: 28px;
-    text-align: center !important;
-    margin: 50px 0px;
-    max-width: 100%;
-  }
-
-  /* .w-100 {
-    width: max-content !important;
-  } */
-
-  .search-menu-container {
-    width: 590px !important;
-    /* display: none !important; */
-    height: 100px;
-    padding: 10px;
-  }
-
-  .menu-search-buttons .logo-container {
-    width: 20% !important;
-  }
-
-  .menu-search-buttons .logo-container span {
-    font-size: 25px !important;
-  }
-
-  .menu-search-buttons {
-    margin-left: 35px;
-    height: 50px;
-    width: 100% !important;
-  }
-
-  .buttons-container {
-    width: 70% !important;
-    justify-content: center !important;
-  }
-
-  .buttons-container a {
-    font-size: 12px;
-    margin: 0 10px;
-  }
-
-  /* .col-8 {
-    width: max-content !important;
-  } */
-
-  .search-icon-container {
-    width: 10% !important;
-  }
-
-  .search-icon-container img {
-    width: 20px;
-    height: 20px;
-  }
-
-  .hook-section {
-    /* min-width: 800px !important;
-    max-width: max-content !important; */
-    display: block !important;
-    height: 850px;
-  }
-
-  .hook-section .text-section {
-    margin-top: 150px;
-    /* min-width: 600px !important;
-    max-width: max-content; */
-    justify-content: start !important;
-    height: 200px;
-    align-items: end !important;
-  }
-
-  .hook-section .text-section div h1 {
-    font-size: 50px;
-  }
-
-  .hook-section .text-section div p {
-    font-size: 17px;
-  }
-
-  .hook-section .text-section div {
-    margin-right: 0;
-    max-width: 85%;
-    margin-left: 30px;
-  }
-
-  .hook-section .image-section {
-    height: 400px;
-    margin-left: 0 !important;
-    /* min-width: 600px !important;
-    max-width: max-content; */
-    justify-content: start !important;
-    align-items: start !important;
-  }
-
-  .hook-section .image-section img {
-    width: 400px;
-    height: 400px;
-    margin-left: 105px;
-  }
-
-
-  /*THIRD SECTION*/
-  .third-section {
-    min-width: 700px !important;
-    max-width: max-content;
-    min-height: 1800px;
-    max-height: max-content;
-  }
-
-  .third-section .content {
-    display: block !important;
-  }
-
-  .third-section .content .text-container {
-    height: 200px !important;
-    /* width: 100% !important; */
-    max-width: 590px;
-    justify-content: start !important;
-  }
-
-  .third-section .content .text-container div {
-    max-width: 100%;
-    padding: 35px;
-    margin-left: 30px;
-    margin-top: 10px;
-  }
-
-  .third-section .content .text-container h2 {
-    font-size: 39px;
-  }
-
-  .third-section .content .text-container p {
-    font-size: 13px;
-    
-  }
-
-  .cards-container {
-    align-items: start !important;
-    display: block !important;
-  }
-
-  .first-cards {
-    /* display:  flex !important; */
-    justify-content: start;
-    margin-left: 20px;
-  }
-
-  .second-cards {
-    /* display:  flex !important; */
-    justify-content: start;
-    margin-left: 20px;
-  }
-
-  .cards-container .card {
-    width: 250px;
-    margin-right: 15px;
-    margin-left: 155px;
-  }
-
-  /* FOURTH SECTION */
-  .fourth-section {
-    /* min-width: 800px; */
-    max-width: max-content;
-    height: 1200px;
-  }
-
-  .fourth-section .strategies-container {
-    display: block !important;
-  }
-
-  .fourth-section .strategies-container .strategy-card {
-    width: 420px !important;
-    height: 300px;
-    margin-bottom: 25px;
-    margin-left: 115px;
-  }
-
-  .fourth-section .strategies-container .strategy-card .cheque-img {
-    width: 40px;
-    height: 40px;
-    margin-top: 20px;
-    margin-bottom: 15px;
-  }
-
-  .fourth-section .strategies-container .strategy-card h4 {
-    font-size: 25px;
-  }
-
-  .fourth-section .strategies-container .strategy-card p {
-    font-size: 13px;
-  }
-
-  /* FIFTH SECTION */
-
-  .fifth-section {
-    min-width: 800px !important;
-    max-width: max-content;
-    /* height: 800px; */
-    overflow: hidden;
-  }
-
-  .fifth-section .text-container {
-    height: 1000px !important;
-    width: 100% !important;
-    justify-content: start !important;
-  }
-
-  .fifth-section .text-container h6 {
-    font-size: 29px;
-    max-width: 80%;
-  }
-
-  .fifth-section .text-container div {
-    margin-left: 45px;
-    max-width: 100%;
-  }
-
-  .fifth-section .text-container p {
-    max-width: 70%;
-    font-size: 12px;
-  }
-
-  .fifth-section .image-container {
-    position: absolute;
-  }
-
-  .fifth-section .bg-color {
-    height: 600px;
-  }
-
-  .fifth-section img {
-    width: 700px;
-    height: 420px;
-  }
-
-  /* SIXTH SECTION */
-  .sixth-section {
-    min-width: 800px;
-    max-width: max-content;
-    height: 1200px;
-  }
-
-  .sixth-section .title-section {
-    margin-left: 20px;
-    text-align: start !important;
-  }
-
-  .sixth-section .bonuses-container {
-    display: block !important;
-    margin-left: 0;
-  }
-
-  .sixth-section .bonus .text p {
-    font-size: 15px;
-  }
-
-  .sixth-section .bonus .text h6 {
-    font-size: 26px;
-  }
-
-  .sixth-section .bonus .image-container img {
-    width: 30px;
-    height: 30px;
-  }
-
-  .sixth-section .bg-image {
-    top: 85%;
-    left: 42%;
-    width: 450px;
-    height: 360px;
-  }
-
-  .sixth-section .bonus {
-    width: 590px;
-    height: 200px;
-  }
-
-  /* SEVENTH SECTION */
-  .seventh-section {
-    max-width: max-content;
-  }
-
-  .seventh-section .title-section-special {
-    font-size: 28px;
-  }
-
-  .seventh-section .avoiding-text {
-    font-size: 14px;
-    max-width: 85%;
-  }
-
-  .avoiding-casino-cards {
-    display: block !important;
-  }
-
-  .avoiding-card {
-    width: 340px !important;
-    margin-left: 160px;
-    height: 320px;
-  }
-
-  .avoiding-card .images-container {
-    height: 30%;
-  }
-
-  .avoiding-card .casino-title-and-rate .casino-title {
-    font-size: 22px;
-  }
-
-  .avoiding-card .casino-title-and-rate .casino-rate {
-    font-size: 14px;
-  }
-
-  .casino-error-container .error-text {
-    font-size: 12px;
-  }
-
-  /* EIGHTH SECTION */
-  .rate-section {
-    max-width: max-content;
-    height: 1400px;
-    display: block !important;
-    position: relative;
-    background-size: cover;
-    margin-top: 50px;
-  }
-
-  .rate-section .text-section {
-    width: 100% !important;
-    display: block !important;
-  }
-
-  .rate-section .text-section h1 {
-    font-size: 28px;
-    max-width: 80%;
-  }
-
-  .method-card .image-container img {
-    display: block !important;
-  }
-
-  .rate-section img {
-    display: none;
-  }
-
-  .methods-container {
-    height: 1500px !important;
-    position: absolute;
-    top: 15%;
-    width: 700px;
-  }
-
-  .method-container {
-    height: max-content;
-    margin-bottom: 10px;
-    margin-left: 40px;
-    justify-content: start !important;
-    overflow: visible !important;
-    width: 490px !important;
-  }
-
-  .method-card {
-    display: block !important;
-    height: 380px;
-    width: 490px;
-    margin-left: 100px;
-  }
-
-  .method-card .text-container {
-    padding-right: 0;
-  }
-
-  .method-card .text-container p {
-    font-size: 12px;
-    margin-left: 20px;
-  }
-
-  .method-card .text-container h1 {
-    font-size: 19px;
-    margin-left: 20px;
-    margin-top: 30px;
-  }
-
-  .method-card .image-container {
-    width: 100% !important;
-  }
-
-  .method-card .image-container img {
-    width: 40px;
-    height: 40px;
-    margin-top: 20px;
-  }
-
-
-  /* NINTH SECTION */
-  .ninth-section {
-    max-width: max-content;
-  }
-
-  .labels-container {
-    width: 100%;
-  }
-
-  .labels-container .space {
-    display: none !important;
-  }
-
-  .online-container {
-    width: 50% !important;
-    justify-content: center !important;
-  }
-
-  .offline-container {
-    width: 50% !important;
-    justify-content: center !important;
-  }
-
-  .mode-content {
-    width: 110px;
-    height: 40px;
-  }
-
-  .mode-content h1 {
-    font-size: 16px;
-  }
-
-  .compare-container {
-  }
-
-  .compare-container .mode-text p {
-    font-size: 13px;
-  }
-
-  .compare-container .mode-text img {
-    margin-left: 10px;
-    width: 15px;
-    height: 15px;
-  }
-
-  .compare-container .mode-text .offline-img {
-    margin-right: 10px;
-    width: 15px;
-    height: 15px;
-  }
-
-  .compare-container .image-container h1 {
-    font-size: 16px;
-  }
-
-  .mode-text {
-    width: 35%;
-  }
-
-  .compare-container .image-container {
-    width: 30%;
-  }
-
-  .compare-container .image-container .image-border {
-    margin-top: 20px;
-  }
-
-  .compare-container .image-container .image-border img {
-    width: 70px;
-    height: 70px;
-  }
-
-  /* TENTH SECTION */
-  .tenth-section {
-    
-    max-width: max-content;
-    height: 1100px;
-  }
-
-  .tenth-section .space {
-    display: none !important;
-  }
-
-  .tenth-section .content {
-    width: 100% !important;
-    padding: 45px;
-  }
-
-  .tenth-section .content h1 {
-    font-size: 35px;
-    margin-top: 50px;
-
-  }
-
-  .tenth-section .content .desc {
-    font-size: 14px;
-  }
-
-  .tenth-section .content a {
-    font-size: 12px;
-  }
-
-  .payments-container {
-    display: block !important;
-  }
-
-  .payment-types-container {
-    width: 100% !important;
-  }
-
-  .payment-type p {
-    font-size: 20px;
-  }
-
-  .payment-type img {
-    width: 40px;
-    height: 40px;
-  }
-
-  /* FAQ SECTION */
-  .faq-section {
-    /* max-width: max-content; */
-  }
-
-  .faq-section .center-content {
-    width: 80%;
-    padding: 10px;
-  }
-
-  .faq-container {
-    margin-bottom: 10px;
-  }
-
-  .faq-container .title-and-button-container h1 {
-    font-size: 18px;
-  }
-
-  .faq-container .answer-content p {
-    font-size: 11px;
-  }
-
-  .faq-container .title-and-button-container img {
-    width: 20px;
-    height: 20px;
-  }
-
-  /* FOOTER SECTION */
-  footer {
-    height: 1000px;
-  }
-
-  footer .buttons-container {
-    display: block !important;
-    height: 70%;
-    
-  }
-
-  footer .buttons-section {
-    width: 100% !important;
-    margin: 30px 0;
-  }
-
-  footer .copyright-container {
-    height: 30%;
-    display: block !important;
-    padding-top: 20px;
-  }
-
-  .information-container {
-    width: 100% !important;
-    display: block !important;
-    height: max-content !important;
-    text-align: center;
-    margin-bottom: 40px;
-  }
-}
-
-/* NORMAL TABLETS */
-@media screen and (min-width: 701px) and (max-width: 899px) {
-
-  .title-section {
-    font-size: 28px;
-    text-align: center !important;
-    margin: 50px 0px;
-    max-width: 100%;
-  }
-
-  /* .w-100 {
-    width: max-content !important;
-  } */
-
-  .search-menu-container {
-    width: 720px !important;
-    /* display: none !important; */
-    height: 100px;
-    padding: 10px;
-  }
-
-  .menu-search-buttons .logo-container {
-    width: 20% !important;
-  }
-
-  .menu-search-buttons .logo-container span {
-    font-size: 25px !important;
-  }
-
-  .menu-search-buttons {
-    margin-left: 35px;
-    height: 50px;
-    width: 100% !important;
-  }
-
-  .buttons-container {
-    width: 70% !important;
-    justify-content: center !important;
-  }
-
-  .buttons-container a {
-    font-size: 12px;
-    margin: 0 20px;
-  }
-
-  /* .col-8 {
-    width: max-content !important;
-  } */
-
-  .search-icon-container {
-    width: 10% !important;
-  }
-
-  .search-icon-container img {
-    width: 20px;
-    height: 20px;
-  }
-
-  .hook-section {
-    /* min-width: 800px !important;
-    max-width: max-content !important; */
-    display: block !important;
-    height: 850px;
-  }
-
-  .hook-section .text-section {
-    margin-top: 150px;
-    /* min-width: 600px !important;
-    max-width: max-content; */
-    justify-content: start !important;
-    height: 200px;
-    align-items: end !important;
-  }
-
-  .hook-section .text-section div h1 {
-    font-size: 50px;
-  }
-
-  .hook-section .text-section div p {
-    font-size: 17px;
-  }
-
-  .hook-section .text-section div {
-    margin-right: 0;
-    max-width: 85%;
-    margin-left: 30px;
-  }
-
-  .hook-section .image-section {
-    height: 400px;
-    margin-left: 0 !important;
-    /* min-width: 600px !important;
-    max-width: max-content; */
-    justify-content: start !important;
-    align-items: start !important;
-  }
-
-  .hook-section .image-section img {
-    width: 400px;
-    height: 400px;
-    margin-left: 165px;
-  }
-
-
-  /*THIRD SECTION*/
-  .third-section {
-    min-width: 900px !important;
-    max-width: max-content;
-    min-height: 1800px;
-    max-height: max-content;
-  }
-
-  .third-section .content {
-    display: block !important;
-  }
-
-  .third-section .content .text-container {
-    height: 200px !important;
-    /* width: 100% !important; */
-    max-width: 590px;
-    justify-content: start !important;
-  }
-
-  .third-section .content .text-container div {
-    max-width: 100%;
-    padding: 35px;
-    margin-left: 30px;
-    margin-top: 10px;
-  }
-
-  .third-section .content .text-container h2 {
-    font-size: 39px;
-  }
-
-  .third-section .content .text-container p {
-    font-size: 13px;
-    
-  }
-
-  .cards-container {
-    align-items: start !important;
-    display: block !important;
-  }
-
-  .first-cards {
-    /* display:  flex !important; */
-    justify-content: start;
-    margin-left: 20px;
-  }
-
-  .second-cards {
-    /* display:  flex !important; */
-    justify-content: start;
-    margin-left: 20px;
-  }
-
-  .cards-container .card {
-    width: 250px;
-    margin-right: 15px;
-    margin-left: 215px;
-  }
-
-  /* FOURTH SECTION */
-  .fourth-section {
-    /* min-width: 800px; */
-    max-width: max-content;
-    height: 1200px;
-  }
-
-  .fourth-section .strategies-container {
-    display: block !important;
-  }
-
-  .fourth-section .strategies-container .strategy-card {
-    width: 420px !important;
-    height: 300px;
-    margin-bottom: 25px;
-    margin-left: 175px;
-  }
-
-  .fourth-section .strategies-container .strategy-card .cheque-img {
-    width: 40px;
-    height: 40px;
-    margin-top: 20px;
-    margin-bottom: 15px;
-  }
-
-  .fourth-section .strategies-container .strategy-card h4 {
-    font-size: 25px;
-  }
-
-  .fourth-section .strategies-container .strategy-card p {
-    font-size: 13px;
-  }
-
-  /* FIFTH SECTION */
-
-  .fifth-section {
-    min-width: 900px !important;
-    max-width: max-content;
-    /* height: 800px; */
-    overflow: hidden;
-  }
-
-  .fifth-section .text-container {
-    height: 1000px !important;
-    width: 100% !important;
-    justify-content: start !important;
-  }
-
-  .fifth-section .text-container h6 {
-    font-size: 34px;
-    max-width: 100%;
-  }
-
-  .fifth-section .text-container div {
-    margin-left: 95px;
-    max-width: 100%;
-  }
-
-  .fifth-section .text-container p {
-    max-width: 70%;
-    font-size: 12px;
-  }
-
-  .fifth-section .image-container {
-    position: absolute;
-  }
-
-  .fifth-section .bg-color {
-    height: 600px;
-  }
-
-  .fifth-section img {
-    width: 700px;
-    height: 420px;
-  }
-
-  /* SIXTH SECTION */
-  .sixth-section {
-    min-width: 800px;
-    max-width: max-content;
-    height: 1200px;
-  }
-
-  .sixth-section .title-section {
-    margin-left: 20px;
-    text-align: start !important;
-  }
-
-  .sixth-section .bonuses-container {
-    display: block !important;
-    margin-left: 0;
-  }
-
-  .sixth-section .bonus .text p {
-    font-size: 15px;
-  }
-
-  .sixth-section .bonus .text h6 {
-    font-size: 26px;
-  }
-
-  .sixth-section .bonus .image-container img {
-    width: 30px;
-    height: 30px;
-  }
-
-  .sixth-section .bg-image {
-    top: 85%;
-    left: 50%;
-    width: 455px;
-    height: 370px;
-  }
-
-  .sixth-section .bonus {
-    width: 590px;
-    height: 200px;
-    margin-left: 70px;
-  }
-
-  /* SEVENTH SECTION */
-  .seventh-section {
-    max-width: max-content;
-  }
-
-  .seventh-section .title-section-special {
-    font-size: 28px;
-  }
-
-  .seventh-section .avoiding-text {
-    font-size: 14px;
-    max-width: 85%;
-  }
-
-  .avoiding-casino-cards {
-    display: block !important;
-  }
-
-  .avoiding-card {
-    width: 340px !important;
-    margin-left: 230px;
-    height: 320px;
-  }
-
-  .avoiding-card .images-container {
-    height: 30%;
-  }
-
-  .avoiding-card .casino-title-and-rate .casino-title {
-    font-size: 22px;
-  }
-
-  .avoiding-card .casino-title-and-rate .casino-rate {
-    font-size: 14px;
-  }
-
-  .casino-error-container .error-text {
-    font-size: 12px;
-  }
-
-  /* EIGHTH SECTION */
-  .rate-section {
-    max-width: max-content;
-    height: 1400px;
-    display: block !important;
-    position: relative;
-    background-size: cover;
-    margin-top: 50px;
-  }
-
-  .rate-section .text-section {
-    width: 100% !important;
-    display: block !important;
-  }
-
-  .rate-section .text-section h1 {
-    font-size: 33px;
-  }
-
-  .method-card .image-container img {
-    display: block !important;
-  }
-
-  .rate-section img {
-    display: none;
-  }
-
-  .methods-container {
-    height: 1500px !important;
-    position: absolute;
-    top: 15%;
-    width: 700px;
-  }
-
-  .method-container {
-    height: max-content;
-    margin-bottom: 10px;
-    margin-left: 40px;
-    justify-content: start !important;
-    overflow: visible !important;
-    width: 550px !important;
-  }
-
-  .method-card {
-    display: block !important;
-    height: 380px;
-    width: 550px;
-    margin-left: 150px;
-  }
-
-  .method-card .text-container {
-    padding-right: 0;
-  }
-
-  .method-card .text-container p {
-    font-size: 13px;
-    margin-left: 20px;
-  }
-
-  .method-card .text-container h1 {
-    font-size: 19px;
-    margin-left: 20px;
-    margin-top: 30px;
-  }
-
-  .method-card .image-container {
-    width: 100% !important;
-  }
-
-  .method-card .image-container img {
-    width: 40px;
-    height: 40px;
-    margin-top: 20px;
-  }
-
-
-  /* NINTH SECTION */
-  .ninth-section {
-    max-width: max-content;
-  }
-
-  .labels-container {
-    width: 100%;
-  }
-
-  .labels-container .space {
-    display: none !important;
-  }
-
-  .online-container {
-    width: 50% !important;
-    justify-content: center !important;
-  }
-
-  .offline-container {
-    width: 50% !important;
-    justify-content: center !important;
-  }
-
-  .mode-content {
-    width: 110px;
-    height: 40px;
-  }
-
-  .mode-content h1 {
-    font-size: 16px;
-  }
-
-  .compare-container {
-  }
-
-  .compare-container .mode-text p {
-    font-size: 13px;
-  }
-
-  .compare-container .mode-text img {
-    margin-left: 10px;
-    width: 15px;
-    height: 15px;
-  }
-
-  .compare-container .mode-text .offline-img {
-    margin-right: 10px;
-    width: 15px;
-    height: 15px;
-  }
-
-  .compare-container .image-container h1 {
-    font-size: 16px;
-  }
-
-  .mode-text {
-    width: 35%;
-  }
-
-  .compare-container .image-container {
-    width: 30%;
-  }
-
-  .compare-container .image-container .image-border {
-    margin-top: 20px;
-  }
-
-  .compare-container .image-container .image-border img {
-    width: 70px;
-    height: 70px;
-  }
-
-  /* TENTH SECTION */
-  .tenth-section {
-    
-    max-width: max-content;
-    height: 1100px;
-  }
-
-  .tenth-section .space {
-    display: none !important;
-  }
-
-  .tenth-section .content {
-    width: 100% !important;
-    padding: 45px;
-  }
-
-  .tenth-section .content h1 {
-    font-size: 35px;
-    margin-top: 50px;
-
-  }
-
-  .tenth-section .content .desc {
-    font-size: 14px;
-  }
-
-  .tenth-section .content a {
-    font-size: 12px;
-  }
-
-  .payments-container {
-    display: block !important;
-  }
-
-  .payment-types-container {
-    width: 100% !important;
-  }
-
-  .payment-type p {
-    font-size: 20px;
-  }
-
-  .payment-type img {
-    width: 40px;
-    height: 40px;
-  }
-
-  /* FAQ SECTION */
-  .faq-section {
-    /* max-width: max-content; */
-  }
-
-  .faq-section .center-content {
-    width: 80%;
-    padding: 10px;
-  }
-
-  .faq-container {
-    margin-bottom: 10px;
-  }
-
-  .faq-container .title-and-button-container h1 {
-    font-size: 22px;
-  }
-
-  .faq-container .answer-content p {
-    font-size: 14px;
-  }
-
-  .faq-container .title-and-button-container img {
-    width: 20px;
-    height: 20px;
-  }
-
-  /* FOOTER SECTION */
-  footer {
-  }
-
-  footer .buttons-container {
-    /* display: block !important; */
-    width: 100% !important;
-  }
-
-  footer .buttons-section {
-    width: 33% !important;
-    margin: 30px 0;
-  }
-
-  footer .copyright-container {
-    padding-top: 20px;
-  }
-
-  footer .copyright-container a {
-    font-size: 11px;
-  }
-
-  .information-container {
-    /* width: 100% !important;
-    display: block !important;
-    height: max-content !important; */
-    text-align: center;
-  }
-}
+/*========================================*/
