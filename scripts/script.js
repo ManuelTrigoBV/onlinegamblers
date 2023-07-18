@@ -1,11 +1,11 @@
 /* RAW Data for testing */
 const data = {
   'What is online gaming?':
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    'Online gambling refers to using the internet to participate in games of chance or place bets on various events, such as casino games, sports, or other forms of gambling. It involves accessing gambling websites or online casinos to wager and potentially win money or prizes.',
   'Is it safe to gamble online?':
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    "The safety of online gambling depends on various factors, such as the reputation and legitimacy of the gambling site, adherence to responsible gambling practices, and the user's own responsible behavior. It is crucial to choose licensed and regulated gambling sites, use secure payment methods, and gamble responsibly to mitigate potential risks.",
   'What are the best online gambling sites?':
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    'Determining the "best" online gambling sites can depend on personal preferences and specific requirements. However, based on the research we have conducted over different factors like game variety, user experience, customer support, and safety, we recommend BetUS, Bovada & MyBookie.',
   'Is online gambling legal in USA?':
     'Online gambling regulations in the United States vary by state. While some states have legalized and regulated online gambling, others have strict laws prohibiting it. It is important to research and understand the specific laws and regulations of your state to determine the legality of online gambling in your jurisdiction.',
   'Can I play online casino games for free?':
@@ -82,12 +82,15 @@ function appendFaq(question, answer, special) {
       faqContainer.classList.remove('active-faq')
       answerContainer.className = 'answer-content d-none w-100'
       image.classList.remove('active-faq-image')
-      isOpened = false
+      isOpened = false;
+      localStorage.setItem("openedQuestion", question);
+      //openingFaqs(question);
     } else {
       faqContainer.classList.add('active-faq')
       answerContainer.className = 'answer-content d-block w-100'
       image.classList.add('active-faq-image')
-      isOpened = true
+      isOpened = true;
+      localStorage.setItem("openedQuestion", "");
     }
   }
 
@@ -123,4 +126,19 @@ function appendFaq(question, answer, special) {
 
   /* Finally appending the main FAQ container to the FAQs container */
   faqsContainer.appendChild(faqContainer)
+}
+
+
+/* Function for opening one faq and closing others */
+
+function openingFaqs(question) {
+  faqsContainer.innerHTML = "";
+  let keys = Object.keys(data);
+  for (let key in data) {
+    if (key === question) {
+      appendFaq(question, data[key], true);
+    } else {
+      appendFaq(question, data[key], false);
+    }
+  }
 }

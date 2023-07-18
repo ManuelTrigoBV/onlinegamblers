@@ -40,7 +40,7 @@ main {
 .title-section {
   font-size: 50px;
   font-weight: bold;
-  margin: 150px 0;
+  margin: 50px 0;
 }
 /***/
 
@@ -49,6 +49,7 @@ main {
   height: 100px;
   margin-top: 15px;
   z-index: 999;
+  display: none !important;
 }
 
 .menu-search-buttons {
@@ -192,7 +193,7 @@ main {
 
 /*Fourth section*/
 .fourth-section {
-  height: 1000px;
+  height: 800px;
 }
 
 .fourth-section .strategies-container {
@@ -282,13 +283,13 @@ body
 
 /*Sixth section*/
 .sixth-section {
-  height: 900px;
+  height: 650px;
 }
 
 .sixth-section .bg-image {
   z-index: -55;
   left: 50%;
-  top: 50%;
+  top: 60%;
   transform: translate(-50%, -50%);
 }
 
@@ -413,7 +414,7 @@ body
 /*Eighth section*/
 
 .rate-section {
-  margin-top: 250px;
+  margin-top: 50px;
   height: 800px;
   background-image: url('../assets/online-games-bg.PNG');
   background-repeat: no-repeat;
@@ -435,10 +436,10 @@ body
 
 .method-card .image-container img {
   margin-top: 40px;
-  width: 60px;
-  height: 60px;
-  filter: invert(66%) sepia(71%) saturate(373%) hue-rotate(128deg)
-    brightness(93%) contrast(90%);
+  width: 90px;
+  height: 90px;
+  /* filter: invert(66%) sepia(71%) saturate(373%) hue-rotate(128deg)
+    brightness(93%) contrast(90%); */
 }
 
 .method-container .text-container {
@@ -569,7 +570,7 @@ body
 
 } */
 
-.tenth-section .content h1 {
+.tenth-section .content h3 {
   color: var(--just-white);
   font-size: 50px;
   margin-top: 100px;
@@ -581,7 +582,7 @@ body
   font-size: 16px;
   margin-top: 30px;
   font-family: 'Poppins', sans-serif;
-  max-width: 80%;
+  max-width: 82%;
 }
 
 .tenth-section .content a {
@@ -632,7 +633,7 @@ body
 
 .faq-container {
   margin-bottom: 20px;
-  min-height: 150px;
+  /* min-height: 150px; */
   max-height: max-content;
 }
 
@@ -640,12 +641,12 @@ body
   height: 100px;
 }
 
-.faq-container .title-and-button-container h1 {
+.faq-container .title-and-button-container h3 {
   font-weight: bold;
   font-size: 30px;
 }
 
-.active-faq .title-and-button-container h1 {
+.active-faq .title-and-button-container h3 {
   color: var(--faq-active-color);
 }
 
@@ -739,6 +740,11 @@ footer .footer-title {
 /* DESKTOP - SMALLER RESOLUTIONS */
 
 @media screen and (max-width: 1550px) and (min-width: 1200px) {
+
+  .hook-section {
+    height: 700px;
+  }
+
   .hook-section .text-section div h1 {
     font-size: 70px;
   }
@@ -768,6 +774,10 @@ footer .footer-title {
 
   .fourth-section .strategies-container .strategy-card p {
     font-size: 13px;
+  }
+
+  .fifth-section {
+    height: 500px;
   }
 
   .fifth-section img {
@@ -804,12 +814,16 @@ footer .footer-title {
     width: 350px;
   }
 
-  .rate-section .text-section h1 {
+  .rate-section .text-section h3 {
     font-size: 50px;
   }
 
   .method-card {
     width: 700px;
+  }
+
+  .method-container {
+    padding: 15px;
   }
 
   .method-card .text-container p {
@@ -982,7 +996,7 @@ footer .footer-title {
     bottom: 0;
   }
 
-  .rate-section .text-section h1 {
+  .rate-section .text-section h3 {
     font-size: 50px;
     max-width: 100%;
   }
@@ -1003,7 +1017,7 @@ footer .footer-title {
     font-size: 12px;
   }
 
-  .compare-container .image-container h1 {
+  .compare-container .image-container h5 {
     font-size: 25px;
   }
 
@@ -1011,7 +1025,7 @@ footer .footer-title {
     height: 1050px;
   }
 
-  .tenth-section .content h1 {
+  .tenth-section .content h3 {
     max-width: 80%;
   }
 
@@ -1235,19 +1249,19 @@ footer .footer-title {
   }
 
   .method-card .image-container img {
-    width: 100px;
-    height: 100px;
+    width: 180px;
+    height: 180px;
   }
 
   .method-card .text-container p {
     font-size: 25px;
   }
 
-  .method-card .text-container h1 {
+  .method-card .text-container h6 {
     font-size: 50px;
   }
 
-  .rate-section .text-section h1 {
+  .rate-section .text-section h3 {
     font-size: 100px;
   }
 
@@ -1256,7 +1270,7 @@ footer .footer-title {
     height: 100px;
   }
 
-  .mode-content h1 {
+  .mode-content h6 {
     font-size: 40px;
   }
 
@@ -1283,7 +1297,7 @@ footer .footer-title {
     height: 140px;
   }
 
-  .compare-container .image-container h1 {
+  .compare-container .image-container h5 {
     font-size: 40px;
   }
 
@@ -1292,7 +1306,7 @@ footer .footer-title {
     height: 1500px;
   }
 
-  .tenth-section .content h1 {
+  .tenth-section .content h3 {
     font-size: 100px;
   }
 
@@ -1330,7 +1344,7 @@ footer .footer-title {
     height: 150px;
   }
 
-  .faq-container .title-and-button-container h1 {
+  .faq-container .title-and-button-container h3 {
     font-size: 60px;
   }
 
@@ -1355,7 +1369,7 @@ footer .footer-title {
     width: 25% !important;
   }
 
-  footer .buttons-container h1 {
+  footer .buttons-container h6 {
     font-size: 50px;
   }
 
@@ -1431,10 +1445,10 @@ footer .footer-title {
   }
 
   .hook-section .text-section {
-    margin-top: 10px;
+    margin-top: 20px;
     /* min-width: 600px !important;
     max-width: max-content; */
-    justify-content: start !important;
+    justify-content: center !important;
     height: 200px;
     align-items: end !important;
   }
@@ -1449,8 +1463,7 @@ footer .footer-title {
 
   .hook-section .text-section div {
     margin-right: 0;
-    max-width: 75%;
-    margin-left: 30px;
+    margin-left: 0px;
   }
 
   .hook-section .image-section {
@@ -1470,7 +1483,7 @@ footer .footer-title {
 
   /*THIRD SECTION*/
   .third-section {
-    height: 1700px;
+    height: 1870px;
   }
 
   .third-section .content {
@@ -1480,7 +1493,7 @@ footer .footer-title {
   .third-section .content .text-container {
     height: 200px !important;
     width: 100% !important;
-
+    margin-top: 20px;
     justify-content: center !important;
   }
 
@@ -1517,6 +1530,7 @@ footer .footer-title {
 
   .cards-container .card {
     width: 250px;
+    height: 340px;
     margin-right: 15px;
     margin-left: 20px;
   }
@@ -1527,11 +1541,11 @@ footer .footer-title {
   }
 
   .fourth-section .desktop-mobile-strategies {
-    display: block !important;
+    display: none !important;
   }
 
   .fourth-section .tablet-strategies {
-    display: none !important;
+    display: block !important;
   }
 
   /* .fourth-section .strategies-container {
@@ -1542,6 +1556,7 @@ footer .footer-title {
     /* width: 100% !important; */
     height: 300px;
     margin-bottom: 15px;
+    width: 100% !important;
   }
 
   .fourth-section .strategies-container .strategy-card .cheque-img {
@@ -1556,7 +1571,8 @@ footer .footer-title {
   }
 
   .fourth-section .strategies-container .strategy-card p {
-    font-size: 10px;
+    font-size: 12px;
+    padding-right: 0;
   }
 
   /* FIFTH SECTION */
@@ -1569,6 +1585,7 @@ footer .footer-title {
   .fifth-section .text-container {
     height: 100% !important;
     align-items: start !important;
+    padding: 10px;
   }
 
   .fifth-section .text-container h6 {
@@ -1600,7 +1617,8 @@ footer .footer-title {
 
   /* SIXTH SECTION */
   .sixth-section {
-    height: 1200px;
+    /* height: 1200px; */
+    height: 900px;
   }
 
   .sixth-section .title-section {
@@ -1639,7 +1657,7 @@ footer .footer-title {
 
   .sixth-section .bonus {
     width: 100%;
-    height: 200px;
+    height: max-content;
   }
 
   /* SEVENTH SECTION */
@@ -1657,6 +1675,7 @@ footer .footer-title {
 
   .seventh-section .title-section-special {
     font-size: 20px;
+    margin: 15px 0;
   }
 
   .seventh-section .avoiding-text {
@@ -1695,7 +1714,7 @@ footer .footer-title {
 
   /* EIGHTH SECTION */
   .rate-section {
-    height: 1380px;
+    height: 1580px;
     display: block !important;
     position: relative;
     background-size: cover;
@@ -1712,7 +1731,7 @@ footer .footer-title {
     width: 100%;
   }
 
-  .rate-section .text-section h1 {
+  .rate-section .text-section h3 {
     font-size: 24px;
     max-width: 100%;
   }
@@ -1742,7 +1761,7 @@ footer .footer-title {
 
   .method-card {
     display: block !important;
-    height: 390px;
+    height: 450px;
     width: 90%;
   }
 
@@ -1755,7 +1774,7 @@ footer .footer-title {
     margin-left: 20px;
   }
 
-  .method-card .text-container h1 {
+  .method-card .text-container h6 {
     font-size: 15px;
     margin-left: 20px;
     margin-top: 30px;
@@ -1763,12 +1782,13 @@ footer .footer-title {
 
   .method-card .image-container {
     width: 100% !important;
+    height: 80px;
+    margin: 0;
   }
 
   .method-card .image-container img {
-    width: 30px;
-    height: 30px;
-    margin-top: 20px;
+    transform: scale(1.2);
+    margin: 0;
   }
 
   /* NINTH SECTION */
@@ -1804,7 +1824,7 @@ footer .footer-title {
     height: 40px;
   }
 
-  .mode-content h1 {
+  .mode-content h6 {
     font-size: 14px;
   }
 
@@ -1827,7 +1847,7 @@ footer .footer-title {
     height: 10px;
   }
 
-  .compare-container .image-container h1 {
+  .compare-container .image-container h5 {
     font-size: 13px;
   }
 
@@ -1852,6 +1872,7 @@ footer .footer-title {
   .tenth-section {
     max-width: max-content;
     height: 1100px;
+    margin-top: 0;
   }
 
   .tenth-section .space {
@@ -1864,7 +1885,7 @@ footer .footer-title {
     margin-left: 15px;
   }
 
-  .tenth-section .content h1 {
+  .tenth-section .content h3 {
     font-size: 30px;
     margin-top: 50px;
   }
@@ -1908,7 +1929,7 @@ footer .footer-title {
     margin-bottom: 10px;
   }
 
-  .faq-container .title-and-button-container h1 {
+  .faq-container .title-and-button-container h3 {
     font-size: 18px;
   }
 
@@ -1924,6 +1945,7 @@ footer .footer-title {
   /* FOOTER SECTION */
   footer {
     height: 240px;
+    margin-top: 20px;
   }
 
   footer .buttons-container {
@@ -1950,6 +1972,14 @@ footer .footer-title {
     margin-bottom: 40px;
   }
 }
+
+
+
+
+
+
+
+
 
 /* MOBILE DEVICES TO SMALL TABLETS */
 @media screen and (min-width: 451px) and (max-width: 620px) {
@@ -2006,11 +2036,11 @@ footer .footer-title {
     /* min-width: 800px !important;
     max-width: max-content !important; */
     display: block !important;
-    height: 650px;
+    height: 680px;
   }
 
   .hook-section .text-section {
-    margin-top: 10px;
+    margin-top: 40px;
     /* min-width: 600px !important;
     max-width: max-content; */
     justify-content: center !important;
@@ -2028,7 +2058,6 @@ footer .footer-title {
 
   .hook-section .text-section div {
     margin-right: 0;
-    max-width: 75%;
     margin-left: 30px;
   }
 
@@ -2102,7 +2131,7 @@ footer .footer-title {
 
   /* FOURTH SECTION */
   .fourth-section {
-    height: 1150px;
+    height: 1250px;
   }
 
   .fourth-section .desktop-mobile-strategies {
@@ -2119,7 +2148,7 @@ footer .footer-title {
 
   .fourth-section .strategies-container .strategy-card {
     width: 80% !important;
-    height: 300px;
+    height: 340px;
     margin-bottom: 15px;
   }
 
@@ -2135,7 +2164,7 @@ footer .footer-title {
   }
 
   .fourth-section .strategies-container .strategy-card p {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   /* FIFTH SECTION */
@@ -2148,6 +2177,7 @@ footer .footer-title {
   .fifth-section .text-container {
     height: 100% !important;
     align-items: start !important;
+    padding: 15px;
   }
 
   .fifth-section .text-container h6 {
@@ -2160,7 +2190,7 @@ footer .footer-title {
   }
 
   .fifth-section .text-container p {
-    width: 100%;
+    width: 95%;
     font-size: 15px;
   }
 
@@ -2179,7 +2209,7 @@ footer .footer-title {
 
   /* SIXTH SECTION */
   .sixth-section {
-    height: 1200px;
+    height: 1000px;
   }
 
   .sixth-section .title-section {
@@ -2218,7 +2248,7 @@ footer .footer-title {
 
   .sixth-section .bonus {
     width: 100%;
-    height: 200px;
+    height: max-content;
   }
 
   /* SEVENTH SECTION */
@@ -2274,7 +2304,7 @@ footer .footer-title {
 
   /* EIGHTH SECTION */
   .rate-section {
-    height: 1380px;
+    height: 1480px;
     display: block !important;
     position: relative;
     background-size: cover;
@@ -2291,7 +2321,7 @@ footer .footer-title {
     width: 100%;
   }
 
-  .rate-section .text-section h1 {
+  .rate-section .text-section h3 {
     font-size: 27px;
     max-width: 100%;
   }
@@ -2321,7 +2351,7 @@ footer .footer-title {
 
   .method-card {
     display: block !important;
-    height: 390px;
+    height: 420px;
     width: 90%;
   }
 
@@ -2334,7 +2364,7 @@ footer .footer-title {
     margin-left: 20px;
   }
 
-  .method-card .text-container h1 {
+  .method-card .text-container h6 {
     font-size: 19px;
     margin-left: 20px;
     margin-top: 30px;
@@ -2345,9 +2375,8 @@ footer .footer-title {
   }
 
   .method-card .image-container img {
-    width: 30px;
-    height: 30px;
-    margin-top: 20px;
+    transform: scale(1.3);
+    margin-top: 0;
   }
 
   /* NINTH SECTION */
@@ -2383,7 +2412,7 @@ footer .footer-title {
     height: 40px;
   }
 
-  .mode-content h1 {
+  .mode-content h6 {
     font-size: 16px;
   }
 
@@ -2406,8 +2435,9 @@ footer .footer-title {
     height: 10px;
   }
 
-  .compare-container .image-container h1 {
-    font-size: 13px;
+  .compare-container .image-container h5 {
+    font-size: 15px;
+    font-weight: bold;
   }
 
   .mode-text {
@@ -2443,7 +2473,7 @@ footer .footer-title {
     margin-left: 15px;
   }
 
-  .tenth-section .content h1 {
+  .tenth-section .content h3 {
     font-size: 35px;
     margin-top: 50px;
   }
@@ -2487,7 +2517,7 @@ footer .footer-title {
     margin-bottom: 10px;
   }
 
-  .faq-container .title-and-button-container h1 {
+  .faq-container .title-and-button-container h3 {
     font-size: 21px;
   }
 
@@ -2606,9 +2636,9 @@ footer .footer-title {
   }
 
   .hook-section .text-section div {
+    margin-top: 20px;
     margin-right: 0;
-    max-width: 75%;
-    margin-left: 30px;
+    margin-left: 0px;
   }
 
   .hook-section .image-section {
@@ -2727,6 +2757,7 @@ footer .footer-title {
   .fifth-section .text-container {
     height: 100% !important;
     align-items: start !important;
+    padding: 10px;
   }
 
   .fifth-section .text-container h6 {
@@ -2758,7 +2789,7 @@ footer .footer-title {
 
   /* SIXTH SECTION */
   .sixth-section {
-    height: 1200px;
+    height: 950px;
   }
 
   .sixth-section .title-section {
@@ -2797,7 +2828,7 @@ footer .footer-title {
 
   .sixth-section .bonus {
     width: 100%;
-    height: 200px;
+    height: max-content;
   }
 
   /* SEVENTH SECTION */
@@ -2853,7 +2884,7 @@ footer .footer-title {
 
   /* EIGHTH SECTION */
   .rate-section {
-    height: 1380px;
+    height: 1480px;
     display: block !important;
     position: relative;
     background-size: cover;
@@ -2871,7 +2902,7 @@ footer .footer-title {
     width: 100%;
   }
 
-  .rate-section .text-section h1 {
+  .rate-section .text-section h3 {
     font-size: 29px;
     max-width: 100%;
   }
@@ -2901,8 +2932,8 @@ footer .footer-title {
 
   .method-card {
     display: block !important;
-    height: 390px;
-    width: 60%;
+    height: 430px;
+    width: 70%;
   }
 
   .method-card .text-container {
@@ -2914,7 +2945,7 @@ footer .footer-title {
     margin-left: 20px;
   }
 
-  .method-card .text-container h1 {
+  .method-card .text-container h6 {
     font-size: 19px;
     margin-left: 20px;
     margin-top: 30px;
@@ -2922,12 +2953,11 @@ footer .footer-title {
 
   .method-card .image-container {
     width: 100% !important;
+    height: 30%;
   }
 
   .method-card .image-container img {
-    width: 40px;
-    height: 40px;
-    margin-top: 20px;
+    transform: scale(1.3);
   }
 
   /* NINTH SECTION */
@@ -2963,7 +2993,7 @@ footer .footer-title {
     height: 40px;
   }
 
-  .mode-content h1 {
+  .mode-content h6 {
     font-size: 18px;
   }
 
@@ -2986,8 +3016,9 @@ footer .footer-title {
     height: 10px;
   }
 
-  .compare-container .image-container h1 {
+  .compare-container .image-container h5 {
     font-size: 16px;
+    font-weight: bold;
   }
 
   .mode-text {
@@ -3023,7 +3054,7 @@ footer .footer-title {
     margin-left: 15px;
   }
 
-  .tenth-section .content h1 {
+  .tenth-section .content h3 {
     font-size: 35px;
     margin-top: 50px;
   }
