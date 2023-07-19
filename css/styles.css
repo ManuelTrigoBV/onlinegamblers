@@ -1852,7 +1852,8 @@ footer .footer-title {
 
   /*SECOND SECTION*/
   .second-section {
-    height: 2070px;
+    min-height: 2070px;
+    max-height: max-content;
   }
 
   .menu-toggle {
@@ -2494,7 +2495,8 @@ footer .footer-title {
 
   /*SECOND SECTION*/
   .second-section {
-    height: 2070px;
+    min-height: 2070px;
+    max-height: max-content;
   }
 
   .menu-toggle {
