@@ -19,6 +19,8 @@
     />
 
     <link rel="stylesheet" href="./css/styles.css" />
+
+    <script src="https://kit.fontawesome.com/1b58572d85.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <main class="d-block position-absolute w-100">
@@ -75,7 +77,376 @@
       </div>
 
       <!-- Second section (skip for now) -->
-      <div></div>
+      <div class="second-section w-100 d-flex justify-content-center align-items-center">
+
+        <div class="casino-blocks h-100 d-block overflow-hidden col-xl-8 col-md-12 col-sm-12">
+          <div class="menu-toggle w-100 d-flex overflow-hidden">
+            <div class="casino-type-button active-btn h-100 col-4 d-flex justify-content-center align-items-center overflow-hidden" id="casino-games-btn">
+              <p>Casino</p>
+            </div>
+            <div class="casino-type-button h-100 col-4 d-flex justify-content-center align-items-center overflow-hidden" id="sports-games-btn">
+              <p>Sports</p>
+            </div>
+            <div class="casino-type-button h-100 col-4 d-flex justify-content-center align-items-center overflow-hidden" id="poker-games-btn">
+              <p>Poker</p>
+            </div>
+          </div>
+          <div class="best-casinos-container w-100 d-flex justify-content-center overflow-hidden">
+
+            <!-- Casino games #1 - Casinos -->
+            <div class="casino-games-container d-block h-100" id="casino-games-content">
+              <!-- Casino Card #1 -->
+              <div class="casino-card w-100 d-flex overflow-hidden align-items-center position-relative">
+                <div class="casino-card-number position-absolute">1</div>
+                <div class="ignition casino-logo-container col-2 h-100 d-flex justify-content-center align-items-center overflow-hidden">
+                  <img src="./assets/casino-logo-1.jpg" alt="">
+                </div>
+                <div class="casino-rating-container col-5 h-100 d-block overflow-hidden position-relative">
+                  <div class="rating-content d-flex justify-content-center align-items-center">
+                    <div class="d-block">
+                      <h4>Rating</h4>
+                      <h3 class="rating-text">4.8/5</h3>
+                      <div class="stars-container d-flex w-100 justify-content-center">
+                        <i class="fas fa-star"></i> <!-- FULL STAR -->
+                        <i class="fas fa-star"></i> <!-- FULL STAR -->
+                        <i class="fas fa-star"></i> <!-- FULL STAR -->
+                        <i class="fas fa-star"></i> <!-- FULL STAR -->
+                        <i class="fas fa-star-half-alt"></i> <!-- HALF STAR -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="casino-payments-types overflow-hidden d-flex justify-content-center align-items-center w-100">
+                    <p class="my-auto">Payment Types</p>
+                    <img src="./assets/visa-logo.svg" alt="">
+                    <img src="./assets/mastercard-logo.png" alt="">
+                  </div>
+                  <div class="separate-line position-absolute"></div>
+                </div>
+                <div class="casino-bonus-container col-5 h-100 d-flex justify-content-center align-items-center overflow-hidden">
+                  <div class="d-block">
+                    <h4>Bonus</h4>
+                    <h5>Up to:</h5>
+                    <h3>$3,000</h3>
+                    <span>Crypto Welcome Bonus</span>
+                    <a class="d-block" href="">Visit Website</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Casino Card #2 -->
+              <div class="casino-card w-100 d-flex overflow-hidden align-items-center position-relative">
+                <div class="casino-card-number position-absolute">2</div>
+                <div class="cafe casino-logo-container col-4 h-100 d-flex justify-content-center align-items-center overflow-hidden">
+                  <img src="./assets/casino-logo-2.jpg" alt="">
+                </div>
+                <div class="casino-rating-container col-4 h-100 d-block overflow-hidden position-relative">
+                  <div class="rating-content d-flex justify-content-center align-items-center">
+                    <div class="d-block">
+                      <h4>Rating</h4>
+                      <h3 class="rating-text">4.7/5</h3>
+                      <div class="stars-container d-flex w-100 justify-content-center">
+                        <i class="fas fa-star"></i> <!-- FULL STAR -->
+                        <i class="fas fa-star"></i> <!-- FULL STAR -->
+                        <i class="fas fa-star"></i> <!-- FULL STAR -->
+                        <i class="fas fa-star"></i> <!-- FULL STAR -->
+                        <i class="fas fa-star-half-alt"></i> <!-- HALF STAR -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="casino-payments-types overflow-hidden d-flex justify-content-center align-items-center w-100">
+                    <p class="my-auto">Payment Types</p>
+                    <img src="./assets/visa-logo.svg" alt="">
+                    <img src="./assets/mastercard-logo.png" alt="">
+                  </div>
+                  <div class="separate-line position-absolute"></div>
+                </div>
+                <div class="casino-bonus-container col-4 h-100 d-flex justify-content-center align-items-center overflow-hidden">
+                  <div class="d-block">
+                    <h4>Bonus</h4>
+                    <h5>Up to:</h5>
+                    <h3>$2,500</h3>
+                    <span>Crypto Welcome Bonus</span>
+                    <a class="d-block" href="">Visit Website</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Casino Card #3 -->
+              <div class="casino-card w-100 d-flex overflow-hidden align-items-center position-relative">
+                <div class="casino-card-number position-absolute">3</div>
+                <div class="big-spin casino-logo-container col-4 h-100 d-flex justify-content-center align-items-center overflow-hidden">
+                  <img src="./assets/casino-logo-3.jpg" alt="">
+                </div>
+                <div class="casino-rating-container col-4 h-100 d-block overflow-hidden position-relative">
+                  <div class="rating-content d-flex justify-content-center align-items-center">
+                    <div class="d-block">
+                      <h4>Rating</h4>
+                      <h3 class="rating-text">4.3/5</h3>
+                      <div class="stars-container d-flex w-100 justify-content-center">
+                        <i class="fas fa-star"></i> <!-- FULL STAR -->
+                        <i class="fas fa-star"></i> <!-- FULL STAR -->
+                        <i class="fas fa-star"></i> <!-- FULL STAR -->
+                        <i class="fas fa-star"></i> <!-- FULL STAR -->
+                        <i class="fas fa-star-half-alt"></i> <!-- HALF STAR -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="casino-payments-types overflow-hidden d-flex justify-content-center align-items-center w-100">
+                    <p class="my-auto">Payment Types</p>
+                    <img src="./assets/visa-logo.svg" alt="">
+                    <img src="./assets/mastercard-logo.png" alt="">
+                  </div>
+                  <div class="separate-line position-absolute"></div>
+                </div>
+                <div class="casino-bonus-container col-4 h-100 d-flex justify-content-center align-items-center overflow-hidden">
+                  <div class="d-block">
+                    <h4>Bonus</h4>
+                    <h5>Up to:</h5>
+                    <h3>$3,000</h3>
+                    <span>Crypto Welcome Bonus</span>
+                    <a class="d-block" href="">Visit Website</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Casino games #2 - Sports -->
+            <div class="casino-games-container d-none h-100" id="sports-games-content">
+              <!-- Casino Card #1 -->
+              <div class="casino-card w-100 d-flex overflow-hidden align-items-center position-relative">
+                <div class="casino-card-number position-absolute">1</div>
+                <div class="betus casino-logo-container col-2 h-100 d-flex justify-content-center align-items-center overflow-hidden">
+                  <img src="./assets/sports-logo-1.png" alt="">
+                </div>
+                <div class="casino-rating-container col-5 h-100 d-block overflow-hidden position-relative">
+                  <div class="rating-content d-flex justify-content-center align-items-center">
+                    <div class="d-block">
+                      <h4>Rating</h4>
+                      <h3 class="rating-text">4.6/5</h3>
+                      <div class="stars-container d-flex w-100 justify-content-center">
+                        <i class="fas fa-star"></i> <!-- FULL STAR -->
+                        <i class="fas fa-star"></i> <!-- FULL STAR -->
+                        <i class="fas fa-star"></i> <!-- FULL STAR -->
+                        <i class="fas fa-star"></i> <!-- FULL STAR -->
+                        <i class="fas fa-star-half-alt"></i> <!-- HALF STAR -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="casino-payments-types overflow-hidden d-flex justify-content-center align-items-center w-100">
+                    <p class="my-auto">Payment Types</p>
+                    <img src="./assets/visa-logo.svg" alt="">
+                    <img src="./assets/mastercard-logo.png" alt="">
+                  </div>
+                  <div class="separate-line position-absolute"></div>
+                </div>
+                <div class="casino-bonus-container col-5 h-100 d-flex justify-content-center align-items-center overflow-hidden">
+                  <div class="d-block">
+                    <h4>Bonus</h4>
+                    <h5>Up to:</h5>
+                    <h3>$3,125</h3>
+                    <span>100% Sign-Up Bonus</span>
+                    <a class="d-block" href="">Visit Website</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Casino Card #2 -->
+              <div class="casino-card w-100 d-flex overflow-hidden align-items-center position-relative">
+                <div class="casino-card-number position-absolute">2</div>
+                <div class="bovada casino-logo-container col-4 h-100 d-flex justify-content-center align-items-center overflow-hidden">
+                  <img src="./assets/sports-logo-2.jpg" alt="">
+                </div>
+                <div class="casino-rating-container col-4 h-100 d-block overflow-hidden position-relative">
+                  <div class="rating-content d-flex justify-content-center align-items-center">
+                    <div class="d-block">
+                      <h4>Rating</h4>
+                      <h3 class="rating-text">4.5/5</h3>
+                      <div class="stars-container d-flex w-100 justify-content-center">
+                        <i class="fas fa-star"></i> <!-- FULL STAR -->
+                        <i class="fas fa-star"></i> <!-- FULL STAR -->
+                        <i class="fas fa-star"></i> <!-- FULL STAR -->
+                        <i class="fas fa-star"></i> <!-- FULL STAR -->
+                        <i class="fas fa-star-half-alt"></i> <!-- HALF STAR -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="casino-payments-types overflow-hidden d-flex justify-content-center align-items-center w-100">
+                    <p class="my-auto">Payment Types</p>
+                    <img src="./assets/visa-logo.svg" alt="">
+                    <img src="./assets/mastercard-logo.png" alt="">
+                  </div>
+                  <div class="separate-line position-absolute"></div>
+                </div>
+                <div class="casino-bonus-container col-4 h-100 d-flex justify-content-center align-items-center overflow-hidden">
+                  <div class="d-block">
+                    <h4>Bonus</h4>
+                    <h5>Up to:</h5>
+                    <h3>$750</h3>
+                    <span>75% BitCoin Bonus</span>
+                    <a class="d-block" href="">Visit Website</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Casino Card #3 -->
+              <div class="casino-card w-100 d-flex overflow-hidden align-items-center position-relative">
+                <div class="casino-card-number position-absolute">3</div>
+                <div class="mybookie casino-logo-container col-4 h-100 d-flex justify-content-center align-items-center overflow-hidden">
+                  <img src="./assets/sports-logo-3.jpg" alt="">
+                </div>
+                <div class="casino-rating-container col-4 h-100 d-block overflow-hidden position-relative">
+                  <div class="rating-content d-flex justify-content-center align-items-center">
+                    <div class="d-block">
+                      <h4>Rating</h4>
+                      <h3 class="rating-text">4.3/5</h3>
+                      <div class="stars-container d-flex w-100 justify-content-center">
+                        <i class="fas fa-star"></i> <!-- FULL STAR -->
+                        <i class="fas fa-star"></i> <!-- FULL STAR -->
+                        <i class="fas fa-star"></i> <!-- FULL STAR -->
+                        <i class="fas fa-star"></i> <!-- FULL STAR -->
+                        <i class="fas fa-star-half-alt"></i> <!-- HALF STAR -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="casino-payments-types overflow-hidden d-flex justify-content-center align-items-center w-100">
+                    <p class="my-auto">Payment Types</p>
+                    <img src="./assets/visa-logo.svg" alt="">
+                    <img src="./assets/mastercard-logo.png" alt="">
+                  </div>
+                  <div class="separate-line position-absolute"></div>
+                </div>
+                <div class="casino-bonus-container col-4 h-100 d-flex justify-content-center align-items-center overflow-hidden">
+                  <div class="d-block">
+                    <h4>Bonus</h4>
+                    <h5>Up to:</h5>
+                    <h3>$1,000</h3>
+                    <span>200% Sign-Up Bonus</span>
+                    <a class="d-block" href="">Visit Website</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Casino games #3 - Poker -->
+            <div class="casino-games-container d-none h-100" id="poker-games-content">
+              <!-- Casino Card #1 -->
+              <div class="casino-card w-100 d-flex overflow-hidden align-items-center position-relative">
+                <div class="casino-card-number position-absolute">1</div>
+                <div class="ignition casino-logo-container col-2 h-100 d-flex justify-content-center align-items-center overflow-hidden">
+                  <img src="./assets/casino-logo-1.jpg" alt="">
+                </div>
+                <div class="casino-rating-container col-5 h-100 d-block overflow-hidden position-relative">
+                  <div class="rating-content d-flex justify-content-center align-items-center">
+                    <div class="d-block">
+                      <h4>Rating</h4>
+                      <h3 class="rating-text">4.8/5</h3>
+                      <div class="stars-container d-flex w-100 justify-content-center">
+                        <i class="fas fa-star"></i> <!-- FULL STAR -->
+                        <i class="fas fa-star"></i> <!-- FULL STAR -->
+                        <i class="fas fa-star"></i> <!-- FULL STAR -->
+                        <i class="fas fa-star"></i> <!-- FULL STAR -->
+                        <i class="fas fa-star-half-alt"></i> <!-- HALF STAR -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="casino-payments-types overflow-hidden d-flex justify-content-center align-items-center w-100">
+                    <p class="my-auto">Payment Types</p>
+                    <img src="./assets/visa-logo.svg" alt="">
+                    <img src="./assets/mastercard-logo.png" alt="">
+                  </div>
+                  <div class="separate-line position-absolute"></div>
+                </div>
+                <div class="casino-bonus-container col-5 h-100 d-flex justify-content-center align-items-center overflow-hidden">
+                  <div class="d-block">
+                    <h4>Bonus</h4>
+                    <h5>Up to:</h5>
+                    <h3>$3,000</h3>
+                    <span>Casino + Poker Bonus</span>
+                    <a class="d-block" href="">Visit Website</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Casino Card #2 -->
+              <div class="casino-card w-100 d-flex overflow-hidden align-items-center position-relative">
+                <div class="casino-card-number position-absolute">2</div>
+                <div class="bovada casino-logo-container col-4 h-100 d-flex justify-content-center align-items-center overflow-hidden">
+                  <img src="./assets/sports-logo-2.jpg" alt="">
+                </div>
+                <div class="casino-rating-container col-4 h-100 d-block overflow-hidden position-relative">
+                  <div class="rating-content d-flex justify-content-center align-items-center">
+                    <div class="d-block">
+                      <h4>Rating</h4>
+                      <h3 class="rating-text">4.7/5</h3>
+                      <div class="stars-container d-flex w-100 justify-content-center">
+                        <i class="fas fa-star"></i> <!-- FULL STAR -->
+                        <i class="fas fa-star"></i> <!-- FULL STAR -->
+                        <i class="fas fa-star"></i> <!-- FULL STAR -->
+                        <i class="fas fa-star"></i> <!-- FULL STAR -->
+                        <i class="fas fa-star-half-alt"></i> <!-- HALF STAR -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="casino-payments-types overflow-hidden d-flex justify-content-center align-items-center w-100">
+                    <p class="my-auto">Payment Types</p>
+                    <img src="./assets/visa-logo.svg" alt="">
+                    <img src="./assets/mastercard-logo.png" alt="">
+                  </div>
+                  <div class="separate-line position-absolute"></div>
+                </div>
+                <div class="casino-bonus-container col-4 h-100 d-flex justify-content-center align-items-center overflow-hidden">
+                  <div class="d-block">
+                    <h4>Bonus</h4>
+                    <h5>Up to:</h5>
+                    <h3>$750</h3>
+                    <span>75% Crypto Bonus</span>
+                    <a class="d-block" href="">Visit Website</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Casino Card #3 -->
+              <div class="casino-card w-100 d-flex overflow-hidden align-items-center position-relative">
+                <div class="casino-card-number position-absolute">3</div>
+                <div class="bovada casino-logo-container col-4 h-100 d-flex justify-content-center align-items-center overflow-hidden">
+                  <img src="./assets/poker-logo-3.jpg" alt="">
+                </div>
+                <div class="casino-rating-container col-4 h-100 d-block overflow-hidden position-relative">
+                  <div class="rating-content d-flex justify-content-center align-items-center">
+                    <div class="d-block">
+                      <h4>Rating</h4>
+                      <h3 class="rating-text">4.2/5</h3>
+                      <div class="stars-container d-flex w-100 justify-content-center">
+                        <i class="fas fa-star"></i> <!-- FULL STAR -->
+                        <i class="fas fa-star"></i> <!-- FULL STAR -->
+                        <i class="fas fa-star"></i> <!-- FULL STAR -->
+                        <i class="fas fa-star"></i> <!-- FULL STAR -->
+                        <i class="fas fa-star-half-alt"></i> <!-- HALF STAR -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="casino-payments-types overflow-hidden d-flex justify-content-center align-items-center w-100">
+                    <p class="my-auto">Payment Types</p>
+                    <img src="./assets/visa-logo.svg" alt="">
+                    <img src="./assets/mastercard-logo.png" alt="">
+                  </div>
+                  <div class="separate-line position-absolute"></div>
+                </div>
+                <div class="casino-bonus-container col-4 h-100 d-flex justify-content-center align-items-center overflow-hidden">
+                  <div class="d-block">
+                    <h4>Bonus</h4>
+                    <h5>Up to:</h5>
+                    <h3>$1,000</h3>
+                    <span>200% Sign-Up Bonus</span>
+                    <a class="d-block" href="">Visit Website</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
 
       <!-- Third section (background image and color overlay not done) -->
       <div class="third-section position-relative overflow-hidden w-100">

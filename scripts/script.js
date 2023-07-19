@@ -131,7 +131,7 @@ function appendFaq(question, answer, special) {
 
 /* Function for opening one faq and closing others */
 
-function openingFaqs(question) {
+/* function openingFaqs(question) {
   faqsContainer.innerHTML = "";
   let keys = Object.keys(data);
   for (let key in data) {
@@ -141,4 +141,48 @@ function openingFaqs(question) {
       appendFaq(question, data[key], false);
     }
   }
+} */
+
+
+/* Casino Tabs Logic */
+
+const casinosButton = document.getElementById("casino-games-btn");
+const sportsButton = document.getElementById("sports-games-btn");
+const pokerButton = document.getElementById("poker-games-btn");
+
+const casinosContainer = document.getElementById("casino-games-content");
+const sportsContainer = document.getElementById("sports-games-content");
+const pokerContainer = document.getElementById("poker-games-content");
+
+
+casinosButton.onclick = () => {
+  casinosButton.classList.add("active-btn");
+  sportsButton.classList.remove("active-btn");
+  pokerButton.classList.remove("active-btn");
+
+  casinosContainer.className = "casino-games-container d-block h-100";
+  sportsContainer.className = "casino-games-container d-none h-100";
+  pokerContainer.className = "casino-games-container d-none h-100";
 }
+
+sportsButton.onclick = () => {
+  casinosButton.classList.remove("active-btn");
+  sportsButton.classList.add("active-btn");
+  pokerButton.classList.remove("active-btn");
+
+  casinosContainer.className = "casino-games-container d-none h-100";
+  sportsContainer.className = "casino-games-container d-block h-100";
+  pokerContainer.className = "casino-games-container d-none h-100";
+}
+
+pokerButton.onclick = () => {
+  casinosButton.classList.remove("active-btn");
+  sportsButton.classList.remove("active-btn");
+  pokerButton.classList.add("active-btn");
+
+  casinosContainer.className = "casino-games-container d-none h-100";
+  sportsContainer.className = "casino-games-container d-none h-100";
+  pokerContainer.className = "casino-games-container d-block h-100";
+}
+
+/* ==================== */
