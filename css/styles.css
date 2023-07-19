@@ -1852,8 +1852,11 @@ footer .footer-title {
 
   /*SECOND SECTION*/
   .second-section {
-    min-height: 2170px;
-    max-height: max-content;
+    height: 2070px;
+  }
+
+  .best-casinos-container {
+    height: max-content;
   }
 
   .menu-toggle {
@@ -2495,8 +2498,11 @@ footer .footer-title {
 
   /*SECOND SECTION*/
   .second-section {
-    min-height: 2170px;
-    max-height: max-content;
+    height: 2070px;
+  }
+
+  .best-casinos-container {
+    height: max-content;
   }
 
   .menu-toggle {
@@ -3147,6 +3153,10 @@ footer .footer-title {
     height: 2070px;
   }
 
+  .best-casinos-container {
+    height: max-content;
+  }
+
   .menu-toggle {
     height: 60px;
     margin-top: 0;
@@ -3776,6 +3786,10 @@ footer .footer-title {
   /*SECOND SECTION*/
   .second-section {
     height: 2070px;
+  }
+
+  .best-casinos-container {
+    height: max-content;
   }
 
   .menu-toggle {
