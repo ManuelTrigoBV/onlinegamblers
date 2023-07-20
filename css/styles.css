@@ -533,6 +533,14 @@ main {
     brightness(86%) contrast(91%);
 }
 
+.cards-container .card .img-section .special {
+  transform: scale(1.7);
+  width: 90px;
+  height: 60px;
+  /* filter: invert(75%) sepia(94%) saturate(279%) hue-rotate(116deg)
+    brightness(86%) contrast(91%); */
+}
+
 .cards-container .card .text h1 {
   font-size: 26px;
   font-weight: bold;
@@ -790,6 +798,7 @@ body
   margin-top: 40px;
   width: 90px;
   height: 90px;
+  transform: scale(1.5);
   /* filter: invert(66%) sepia(71%) saturate(373%) hue-rotate(128deg)
     brightness(93%) contrast(90%); */
 }
@@ -812,7 +821,7 @@ body
 }
 
 .rate-section .text-section {
-  padding-left: 5rem;
+  padding-left: 1rem;
 }
 
 .rate-section .text-section h3 {
@@ -1163,8 +1172,8 @@ footer .footer-title {
   }
 
   .sixth-section .bg-image {
-    width: 500px;
-    height: 400px;
+    width: 800px;
+    height: 500px;
   }
 
   .sixth-section .space {
@@ -1303,6 +1312,7 @@ footer .footer-title {
 
   .fourth-section {
     height: 600px;
+    padding: 10px;
   }
 
   .fourth-section .strategies-container .strategy-card {
@@ -1346,8 +1356,8 @@ footer .footer-title {
   }
 
   .sixth-section .bg-image {
-    width: 400px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
   }
 
   .sixth-section .space {
@@ -1377,6 +1387,7 @@ footer .footer-title {
   .rate-section .text-section h3 {
     font-size: 50px;
     max-width: 100%;
+    padding: 10px;
   }
 
   .methods-container {
@@ -1621,9 +1632,9 @@ footer .footer-title {
   }
 
   .sixth-section .bg-image {
-    width: 1300px;
+    width: 1700px;
     height: 1040px;
-    top: 75%;
+    top: 95%;
   }
 
   .seventh-section {
@@ -2026,7 +2037,7 @@ footer .footer-title {
 
   /* FOURTH SECTION */
   .fourth-section {
-    height: 1050px;
+    height: 1090px;
   }
 
   .fourth-section .desktop-mobile-strategies {
@@ -2043,7 +2054,7 @@ footer .footer-title {
 
   .fourth-section .strategies-container .strategy-card {
     /* width: 100% !important; */
-    height: 300px;
+    height: 320px;
     margin-bottom: 15px;
     width: 100% !important;
   }
@@ -2134,9 +2145,9 @@ footer .footer-title {
 
   .sixth-section .bg-image {
     top: 85%;
-    left: 50%;
-    width: 300px;
-    height: 250px;
+    left: 52%;
+    width: 500px;
+    height: 350px;
   }
 
   .first-bonuses,
@@ -2678,7 +2689,7 @@ footer .footer-title {
 
   /* FOURTH SECTION */
   .fourth-section {
-    height: 1090px;
+    height: 1110px;
   }
 
   .fourth-section .desktop-mobile-strategies {
@@ -2786,9 +2797,9 @@ footer .footer-title {
 
   .sixth-section .bg-image {
     top: 85%;
-    left: 50%;
-    width: 300px;
-    height: 250px;
+    left: 55%;
+    /* width: 600px; */
+    height: 400px;
   }
 
   .first-bonuses,
@@ -3336,7 +3347,7 @@ footer .footer-title {
 
   /* FOURTH SECTION */
   .fourth-section {
-    height: 1250px;
+    height: 1290px;
   }
 
   .fourth-section .desktop-mobile-strategies {
@@ -3353,7 +3364,7 @@ footer .footer-title {
 
   .fourth-section .strategies-container .strategy-card {
     width: 80% !important;
-    height: 340px;
+    height: 350px;
     margin-bottom: 15px;
   }
 
@@ -3441,9 +3452,9 @@ footer .footer-title {
 
   .sixth-section .bg-image {
     top: 85%;
-    left: 50%;
-    width: 450px;
-    height: 350px;
+    left: 55%;
+    width: 850px;
+    height: 450px;
   }
 
   .first-bonuses,
@@ -3976,7 +3987,7 @@ footer .footer-title {
 
   /* FOURTH SECTION */
   .fourth-section {
-    height: 1150px;
+    height: 1190px;
   }
 
   .fourth-section .desktop-mobile-strategies {
@@ -3993,7 +4004,7 @@ footer .footer-title {
 
   .fourth-section .strategies-container .strategy-card {
     width: 70% !important;
-    height: 300px;
+    height: 320px;
     margin-bottom: 15px;
   }
 
@@ -4081,9 +4092,9 @@ footer .footer-title {
 
   .sixth-section .bg-image {
     top: 85%;
-    left: 50%;
-    width: 450px;
-    height: 350px;
+    left: 55%;
+    width: 850px;
+    height: 550px;
   }
 
   .first-bonuses,
