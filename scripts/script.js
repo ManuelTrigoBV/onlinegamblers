@@ -1,6 +1,6 @@
 /* RAW Data for testing */
 const data = {
-  'What is online gaming?':
+  'What is online gambling?':
     'Online gambling refers to using the internet to participate in games of chance or place bets on various events, such as casino games, sports, or other forms of gambling. It involves accessing gambling websites or online casinos to wager and potentially win money or prizes.',
   'Is it safe to gamble online?':
     "The safety of online gambling depends on various factors, such as the reputation and legitimacy of the gambling site, adherence to responsible gambling practices, and the user's own responsible behavior. It is crucial to choose licensed and regulated gambling sites, use secure payment methods, and gamble responsibly to mitigate potential risks.",
@@ -8,8 +8,6 @@ const data = {
     'Determining the "best" online gambling sites can depend on personal preferences and specific requirements. However, based on the research we have conducted over different factors like game variety, user experience, customer support, and safety, we recommend BetUS, Bovada & MyBookie.',
   'Is online gambling legal in USA?':
     'Online gambling regulations in the United States vary by state. While some states have legalized and regulated online gambling, others have strict laws prohibiting it. It is important to research and understand the specific laws and regulations of your state to determine the legality of online gambling in your jurisdiction.',
-  'Can I play online casino games for free?':
-    'Yes, many online gambling websites offer the option to play casino games for free. These free games often come in the form of “demo” or “play for fun” versions, allowing you to experience the gameplay and features without wagering real money. It’s a great way to familiarize yourself with different games, practice strategies, or simply enjoy the entertainment value without any financial risk.',
   'Can I gamble for real money online?':
     'Yes, you can gamble for real money online. Online gambling sites provide opportunities to wager real money on various casino games, sports betting, poker, and other forms of gambling. However, it’s important to ensure that you are of legal age and comply with the laws and regulations of your jurisdiction regarding online gambling for real money. Additionally, it is crucial to gamble responsibly and set limits on your spending.',
   'How popular is online gambling?':
@@ -82,15 +80,15 @@ function appendFaq(question, answer, special) {
       faqContainer.classList.remove('active-faq')
       answerContainer.className = 'answer-content d-none w-100'
       image.classList.remove('active-faq-image')
-      isOpened = false;
-      localStorage.setItem("openedQuestion", question);
+      isOpened = false
+      localStorage.setItem('openedQuestion', question)
       //openingFaqs(question);
     } else {
       faqContainer.classList.add('active-faq')
       answerContainer.className = 'answer-content d-block w-100'
       image.classList.add('active-faq-image')
-      isOpened = true;
-      localStorage.setItem("openedQuestion", "");
+      isOpened = true
+      localStorage.setItem('openedQuestion', '')
     }
   }
 
@@ -128,7 +126,6 @@ function appendFaq(question, answer, special) {
   faqsContainer.appendChild(faqContainer)
 }
 
-
 /* Function for opening one faq and closing others */
 
 /* function openingFaqs(question) {
@@ -143,46 +140,44 @@ function appendFaq(question, answer, special) {
   }
 } */
 
-
 /* Casino Tabs Logic */
 
-const casinosButton = document.getElementById("casino-games-btn");
-const sportsButton = document.getElementById("sports-games-btn");
-const pokerButton = document.getElementById("poker-games-btn");
+const casinosButton = document.getElementById('casino-games-btn')
+const sportsButton = document.getElementById('sports-games-btn')
+const pokerButton = document.getElementById('poker-games-btn')
 
-const casinosContainer = document.getElementById("casino-games-content");
-const sportsContainer = document.getElementById("sports-games-content");
-const pokerContainer = document.getElementById("poker-games-content");
-
+const casinosContainer = document.getElementById('casino-games-content')
+const sportsContainer = document.getElementById('sports-games-content')
+const pokerContainer = document.getElementById('poker-games-content')
 
 casinosButton.onclick = () => {
-  casinosButton.classList.add("active-btn");
-  sportsButton.classList.remove("active-btn");
-  pokerButton.classList.remove("active-btn");
+  casinosButton.classList.add('active-btn')
+  sportsButton.classList.remove('active-btn')
+  pokerButton.classList.remove('active-btn')
 
-  casinosContainer.className = "casino-games-container d-block h-100";
-  sportsContainer.className = "casino-games-container d-none h-100";
-  pokerContainer.className = "casino-games-container d-none h-100";
+  casinosContainer.className = 'casino-games-container d-block h-100'
+  sportsContainer.className = 'casino-games-container d-none h-100'
+  pokerContainer.className = 'casino-games-container d-none h-100'
 }
 
 sportsButton.onclick = () => {
-  casinosButton.classList.remove("active-btn");
-  sportsButton.classList.add("active-btn");
-  pokerButton.classList.remove("active-btn");
+  casinosButton.classList.remove('active-btn')
+  sportsButton.classList.add('active-btn')
+  pokerButton.classList.remove('active-btn')
 
-  casinosContainer.className = "casino-games-container d-none h-100";
-  sportsContainer.className = "casino-games-container d-block h-100";
-  pokerContainer.className = "casino-games-container d-none h-100";
+  casinosContainer.className = 'casino-games-container d-none h-100'
+  sportsContainer.className = 'casino-games-container d-block h-100'
+  pokerContainer.className = 'casino-games-container d-none h-100'
 }
 
 pokerButton.onclick = () => {
-  casinosButton.classList.remove("active-btn");
-  sportsButton.classList.remove("active-btn");
-  pokerButton.classList.add("active-btn");
+  casinosButton.classList.remove('active-btn')
+  sportsButton.classList.remove('active-btn')
+  pokerButton.classList.add('active-btn')
 
-  casinosContainer.className = "casino-games-container d-none h-100";
-  sportsContainer.className = "casino-games-container d-none h-100";
-  pokerContainer.className = "casino-games-container d-block h-100";
+  casinosContainer.className = 'casino-games-container d-none h-100'
+  sportsContainer.className = 'casino-games-container d-none h-100'
+  pokerContainer.className = 'casino-games-container d-block h-100'
 }
 
 /* ==================== */
