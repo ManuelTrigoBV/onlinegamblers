@@ -93,6 +93,13 @@ main {
   );
 }
 
+
+.hook-section .site-logo img {
+  width: 210px;
+  height: 80px;
+  margin: 30px 50px;
+}
+
 .hook-section .text-section div {
   max-width: 65%;
   margin-right: 50px;
@@ -1023,13 +1030,14 @@ body
 
 footer {
   margin-top: 100px;
-  height: 500px;
+  height: 100px;
   background-color: var(--main-blue);
   color: var(--just-white);
 }
 
 footer .buttons-container {
   height: 90%;
+  display: none !important;
 }
 
 footer .buttons-container h1 {
@@ -1044,7 +1052,7 @@ footer .buttons-container a {
 }
 
 footer .copyright-container {
-  height: 10%;
+  height: 100%;
 }
 
 footer .copyright-container a {
@@ -1230,7 +1238,7 @@ footer .footer-title {
 
   .hook-section {
     display: block !important;
-    height: 1000px;
+    height: 1200px;
   }
 
   .hook-section .text-section {
@@ -1238,7 +1246,7 @@ footer .footer-title {
     align-items: end !important;
     justify-content: center !important;
     width: 100% !important;
-    margin-top: 30px;
+    margin-top: 130px;
   }
 
   .hook-section .image-section {
@@ -1446,6 +1454,11 @@ footer .footer-title {
     height: 1500px;
   }
 
+  .hook-section .site-logo img {
+    width: 400px;
+    height: 150px;
+  }
+
   .hook-section .image-section img {
     width: 1300px;
     height: 1300px;
@@ -1457,6 +1470,55 @@ footer .footer-title {
 
   .hook-section .text-section div p {
     font-size: 40px;
+  }
+
+  .second-section {
+    height: 1200px;
+  }
+
+  .casino-games-container {
+    width: 65%;
+  }
+
+  .casino-card {
+    height: 280px;
+  }
+
+  .casino-card .casino-rating-container h4 {
+    font-size: 22px;
+  }
+
+  .casino-card .casino-rating-container .rating-text {
+    font-size: 45px;
+  }
+
+  .casino-card .casino-rating-container .casino-payments-types p {
+    font-size: 19px;
+  }
+
+  .casino-card .casino-rating-container .casino-payments-types img {
+    width: 60px;
+    height: 40px;
+  }
+
+  .casino-card .casino-bonus-container h4 {
+    font-size: 23px;
+  }
+
+  .casino-card .casino-bonus-container h5 {
+    font-size: 20px;
+  }
+
+  .casino-card .casino-bonus-container h3 {
+    font-size: 35px;
+  }
+
+  .casino-card .casino-bonus-container span {
+    font-size: 16px;
+  }
+
+  .casino-card .casino-bonus-container a {
+    font-size: 20px;
   }
 
   .third-section {
@@ -1728,7 +1790,7 @@ footer .footer-title {
   }
 
   footer {
-    height: 700px;
+    height: 200px;
   }
 
   footer .buttons-container {
@@ -1811,11 +1873,15 @@ footer .footer-title {
     /* min-width: 800px !important;
     max-width: max-content !important; */
     display: block !important;
-    height: 550px;
+    height: 700px;
+  }
+
+  .hook-section .site-logo {
+    justify-content: center;
   }
 
   .hook-section .text-section {
-    margin-top: 20px;
+    margin-top: 120px;
     /* min-width: 600px !important;
     max-width: max-content; */
     justify-content: center !important;
@@ -1829,6 +1895,7 @@ footer .footer-title {
 
   .hook-section .text-section div p {
     font-size: 13px;
+    margin: 0 !important;
   }
 
   .hook-section .text-section div {
@@ -2457,11 +2524,15 @@ footer .footer-title {
     /* min-width: 800px !important;
     max-width: max-content !important; */
     display: block !important;
-    height: 550px;
+    height: 700px;
+  }
+
+  .hook-section .site-logo {
+    justify-content: center;
   }
 
   .hook-section .text-section {
-    margin-top: 20px;
+    margin-top: 120px;
     /* min-width: 600px !important;
     max-width: max-content; */
     justify-content: center !important;
@@ -2475,6 +2546,7 @@ footer .footer-title {
 
   .hook-section .text-section div p {
     font-size: 15px;
+    margin: 0 !important;
   }
 
   .hook-section .text-section div {
@@ -3111,11 +3183,15 @@ footer .footer-title {
     /* min-width: 800px !important;
     max-width: max-content !important; */
     display: block !important;
-    height: 680px;
+    height: 780px;
+  }
+
+  .hook-section .site-logo {
+    justify-content: center;
   }
 
   .hook-section .text-section {
-    margin-top: 40px;
+    margin-top: 160px;
     /* min-width: 600px !important;
     max-width: max-content; */
     justify-content: center !important;
@@ -3744,11 +3820,15 @@ footer .footer-title {
     /* min-width: 800px !important;
     max-width: max-content !important; */
     display: block !important;
-    height: 650px;
+    height: 750px;
+  }
+
+  .hook-section .site-logo {
+    justify-content: center;
   }
 
   .hook-section .text-section {
-    margin-top: 10px;
+    margin-top: 110px;
     /* min-width: 600px !important;
     max-width: max-content; */
     justify-content: center !important;
@@ -3762,6 +3842,7 @@ footer .footer-title {
 
   .hook-section .text-section div p {
     font-size: 18px;
+    margin: 0 !important;
   }
 
   .hook-section .text-section div {
