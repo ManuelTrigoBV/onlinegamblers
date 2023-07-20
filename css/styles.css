@@ -2470,11 +2470,11 @@ footer .footer-title {
   }
 
   .hook-section .text-section div h1 {
-    font-size: 30px;
+    font-size: 33px;
   }
 
   .hook-section .text-section div p {
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .hook-section .text-section div {
@@ -2576,7 +2576,7 @@ footer .footer-title {
   }
 
   .third-section .content .text-container p {
-    font-size: 12px;
+    font-size: 14px;
     max-width: 100%;
   }
 
@@ -2606,7 +2606,7 @@ footer .footer-title {
 
   /* FOURTH SECTION */
   .fourth-section {
-    height: 1050px;
+    height: 1090px;
   }
 
   .fourth-section .desktop-mobile-strategies {
@@ -2623,7 +2623,7 @@ footer .footer-title {
 
   .fourth-section .strategies-container .strategy-card {
     /* width: 100% !important; */
-    height: 300px;
+    height: max-content;
     margin-bottom: 15px;
     width: 100% !important;
   }
@@ -2640,7 +2640,7 @@ footer .footer-title {
   }
 
   .fourth-section .strategies-container .strategy-card p {
-    font-size: 12px;
+    font-size: 15px;
     padding-right: 0;
   }
 
@@ -2668,7 +2668,7 @@ footer .footer-title {
 
   .fifth-section .text-container p {
     width: 100%;
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .fifth-section .image-container {
@@ -2700,7 +2700,7 @@ footer .footer-title {
   }
 
   .sixth-section .bonus .text p {
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .sixth-section .bonus .text h6 {
@@ -2748,7 +2748,7 @@ footer .footer-title {
   }
 
   .seventh-section .avoiding-text {
-    font-size: 13px;
+    font-size: 15px;
     max-width: 85%;
   }
 
@@ -2778,17 +2778,18 @@ footer .footer-title {
   }
 
   .casino-error-container .error-text {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   /* EIGHTH SECTION */
   .rate-section {
     /* height: 1580px; */
-    height: 1400px;
+    height: 1530px;
     display: block !important;
     position: relative;
     background-size: cover;
     margin-top: 50px;
+    overflow: hidden;
   }
 
   .rate-section .text-section {
@@ -2845,12 +2846,12 @@ footer .footer-title {
   }
 
   .method-card .text-container p {
-    font-size: 12px;
+    font-size: 14px;
     margin-left: 20px;
   }
 
   .method-card .text-container h6 {
-    font-size: 15px;
+    font-size: 18px;
     margin-left: 20px;
     margin-top: 30px;
   }
@@ -2862,7 +2863,7 @@ footer .footer-title {
   }
 
   .method-card .image-container img {
-    transform: scale(1.2);
+    transform: scale(1.5);
     margin: 0;
   }
 
@@ -2907,7 +2908,7 @@ footer .footer-title {
   }
 
   .compare-container .mode-text p {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .compare-container .mode-text img {
@@ -2923,7 +2924,8 @@ footer .footer-title {
   }
 
   .compare-container .image-container h5 {
-    font-size: 13px;
+    font-size: 15px;
+    font-weight: bold;
   }
 
   .mode-text {
@@ -2966,7 +2968,7 @@ footer .footer-title {
   }
 
   .tenth-section .content .desc {
-    font-size: 11px;
+    font-size: 14px;
   }
 
   .tenth-section .content a {
@@ -3009,7 +3011,7 @@ footer .footer-title {
   }
 
   .faq-container .answer-content p {
-    font-size: 11px;
+    font-size: 13px;
   }
 
   .faq-container .title-and-button-container img {
