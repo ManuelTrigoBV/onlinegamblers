@@ -2119,7 +2119,7 @@ footer .footer-title {
   /* SIXTH SECTION */
   .sixth-section {
     /* height: 1200px; */
-    height: 1050px;
+    height: 1000px;
   }
 
   .sixth-section .title-section {
@@ -2145,10 +2145,11 @@ footer .footer-title {
   }
 
   .sixth-section .bg-image {
-    top: 85%;
-    left: 52%;
-    width: 500px;
-    height: 350px;
+    top: 80%;
+    left: 13%;
+    width: 300px;
+    height: 150px;
+    transform: scale(2);
   }
 
   .first-bonuses,
@@ -2797,10 +2798,12 @@ footer .footer-title {
   }
 
   .sixth-section .bg-image {
-    top: 85%;
-    left: 55%;
+    top: 75%;
+    left: 19%;
     /* width: 600px; */
-    height: 400px;
+    width: 310px;
+    height: 200px;
+    transform: scale(2);
   }
 
   .first-bonuses,
@@ -3452,10 +3455,11 @@ footer .footer-title {
   }
 
   .sixth-section .bg-image {
-    top: 85%;
-    left: 55%;
-    width: 850px;
-    height: 450px;
+    top: 75%;
+    left: 22%;
+    width: 350px;
+    height: 220px;
+    transform: scale(2);
   }
 
   .first-bonuses,
@@ -4092,10 +4096,11 @@ footer .footer-title {
   }
 
   .sixth-section .bg-image {
-    top: 85%;
-    left: 55%;
-    width: 850px;
-    height: 550px;
+    top: 70%;
+    left: 25%;
+    width: 450px;
+    height: 250px;
+    transform: scale(2);
   }
 
   .first-bonuses,
