@@ -41,11 +41,13 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
 }
 
 main {
   min-height: 100%;
   max-height: max-content;
+  overflow-x: hidden;
 }
 
 /*Classes used through the entire site*/
@@ -1832,6 +1834,19 @@ footer .footer-title {
 
 /* MOBILE DEVICES COMPLETE RESPONSIVNESS */
 @media screen and (max-width: 370px) {
+
+  body {
+    overflow-x: hidden !important;
+  }
+
+  html {
+    overflow-x: hidden !important;
+  }
+
+  main {
+    overflow-x: hidden;
+  }
+
   .title-section {
     font-size: 20px;
     text-align: center !important;
@@ -1844,7 +1859,7 @@ footer .footer-title {
   } */
 
   .search-menu-container {
-    width: 340px !important;
+    /* width: 340px !important; */
     display: none !important;
     height: 100px;
     padding: 10px;
@@ -2484,6 +2499,19 @@ footer .footer-title {
 
 /* MOBILE DEVICES BIG DEVICES */
 @media screen and (min-width: 371px) and (max-width: 450px) {
+
+  body {
+    overflow-x: hidden !important;
+  }
+
+  html {
+    overflow-x: hidden !important;
+  }
+
+  main {
+    overflow-x: hidden;
+  }
+
   .title-section {
     font-size: 20px;
     text-align: center !important;
