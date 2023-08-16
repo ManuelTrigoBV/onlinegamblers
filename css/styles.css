@@ -87,7 +87,7 @@ main {
 /*Hook section (first section)*/
 .hook-section {
   z-index: 1;
-  height: 940px; /*!*/
+  height: 850px; /*!*/ /* 940PX DEFAULT */
   background-image: linear-gradient(
     to right,
     var(--gradient-first-color),
@@ -122,8 +122,8 @@ main {
 }
 
 .hook-section .image-section img {
-  width: 800px;
-  height: 800px;
+  width: 700px;
+  height: 700px;
 }
 
 /* Second section - casino tabs */
@@ -133,7 +133,7 @@ main {
 }
 
 .menu-toggle {
-  margin-top: 20px;
+/*   margin-top: 20px; */
   height: 8%;
   
   border-bottom: 4px solid var(--main-blue);
@@ -1107,7 +1107,7 @@ footer .footer-title {
 @media screen and (max-width: 1550px) and (min-width: 1200px) {
 
   .hook-section {
-    height: 700px;
+    height: 640px;
   }
 
   .hook-section .text-section div h1 {
@@ -1250,7 +1250,7 @@ footer .footer-title {
 
   .hook-section {
     display: block !important;
-    height: 1200px;
+    height: 1000px;
   }
 
   .hook-section .text-section {
@@ -1258,7 +1258,7 @@ footer .footer-title {
     align-items: end !important;
     justify-content: center !important;
     width: 100% !important;
-    margin-top: 130px;
+    margin-top: 140px;
   }
 
   .hook-section .image-section {
@@ -1271,8 +1271,8 @@ footer .footer-title {
   }
 
   .hook-section .image-section img {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
   }
 
   .hook-section .text-section div p {
@@ -1900,7 +1900,7 @@ footer .footer-title {
     /* min-width: 800px !important;
     max-width: max-content !important; */
     display: block !important;
-    height: 700px;
+    height: 600px;
   }
 
   .hook-section .site-logo {
@@ -1940,8 +1940,8 @@ footer .footer-title {
   }
 
   .hook-section .image-section img {
-    width: 250px;
-    height: 250px;
+    width: 180px;
+    height: 180px;
   }
 
   /*SECOND SECTION*/
@@ -2565,7 +2565,7 @@ footer .footer-title {
     /* min-width: 800px !important;
     max-width: max-content !important; */
     display: block !important;
-    height: 700px;
+    height: 600px;
   }
 
   .hook-section .site-logo {
@@ -2605,8 +2605,8 @@ footer .footer-title {
   }
 
   .hook-section .image-section img {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
   }
 
   /*SECOND SECTION*/
@@ -3226,7 +3226,7 @@ footer .footer-title {
     /* min-width: 800px !important;
     max-width: max-content !important; */
     display: block !important;
-    height: 780px;
+    height: 680px;
   }
 
   .hook-section .site-logo {
@@ -3265,8 +3265,8 @@ footer .footer-title {
   }
 
   .hook-section .image-section img {
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
   }
 
   /*SECOND SECTION*/
@@ -3864,7 +3864,7 @@ footer .footer-title {
     /* min-width: 800px !important;
     max-width: max-content !important; */
     display: block !important;
-    height: 750px;
+    height: 650px;
   }
 
   .hook-section .site-logo {
@@ -3905,8 +3905,8 @@ footer .footer-title {
   }
 
   .hook-section .image-section img {
-    width: 350px;
-    height: 350px;
+    width: 260px;
+    height: 260px;
   }
 
 
