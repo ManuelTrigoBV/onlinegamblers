@@ -140,7 +140,7 @@ main {
 }
 
 .active-btn {
-  background-color: #2faf7e;
+  background-color: #34ada8; /*#2faf7e*/
   cursor: pointer;
 }
 
